@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#f6f1e8"/>
+  <rect x="42" y="42" width="1516" height="916" fill="#fffdf8" stroke="#141412" stroke-width="4"/>
+
+  <text x="104" y="122" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#ed503d">浏览器自动化进阶 · 2.14</text>
+  <text x="104" y="252" font-family="Arial, Microsoft YaHei, sans-serif" font-size="72" font-weight="900" fill="#141412">收藏不是终点</text>
+  <rect x="104" y="284" width="380" height="12" fill="#ed503d"/>
+  <text x="104" y="366" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#5d5a53">让 Agent 帮你把收藏过的好内容</text>
+  <text x="104" y="416" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#5d5a53">变成下一次创作可以调用的素材。</text>
+
+  <line x1="104" y1="500" x2="1496" y2="500" stroke="#141412" stroke-width="3"/>
+  <text x="104" y="554" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#ed503d">这节课只需要记住三步</text>
+
+  <line x1="188" y1="650" x2="1412" y2="650" stroke="#141412" stroke-width="3"/>
+  <circle cx="240" cy="650" r="38" fill="#f8dd4f" stroke="#141412" stroke-width="3"/>
+  <text x="228" y="662" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#141412">01</text>
+  <text x="168" y="740" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="900" fill="#141412">打开收藏</text>
+  <text x="168" y="780" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#5d5a53">只处理你已经筛选过的内容。</text>
+
+  <circle cx="800" cy="650" r="38" fill="#b9dfca" stroke="#141412" stroke-width="3"/>
+  <text x="788" y="662" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#141412">02</text>
+  <text x="728" y="740" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="900" fill="#141412">分析筛选</text>
+  <text x="728" y="780" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#5d5a53">告诉 Agent 主题和判断标准。</text>
+
+  <circle cx="1360" cy="650" r="38" fill="#f4c8bd" stroke="#141412" stroke-width="3"/>
+  <text x="1348" y="662" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#141412">03</text>
+  <text x="1288" y="740" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="900" fill="#141412">沉淀复用</text>
+  <text x="1288" y="780" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#5d5a53">写进 Obsidian，继续调用。</text>
+
+  <g transform="translate(1230 118)" fill="none" stroke="#141412" stroke-width="5">
+    <rect x="0" y="0" width="130" height="96" rx="12" fill="#fff4a8"/>
+    <path d="M24 30h82M24 51h62M24 72h70"/>
+    <path d="M150 48h52" stroke="#ed503d"/>
+    <path d="m184 29 22 19-22 19" stroke="#ed503d"/>
+    <rect x="224" y="0" width="130" height="96" rx="12" fill="#dff0e8"/>
+    <path d="M248 30h82M248 51h66M248 72h50"/>
+  </g>
+  <text x="1230" y="252" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="900" fill="#ed503d">收藏 → 知识库 → 创作</text>
+
+  <line x1="104" y1="908" x2="1496" y2="908" stroke="#141412" stroke-width="3"/>
+  <text x="104" y="938" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#141412">浏览器自动化的关键：让 Agent 处理你已经判断过的好东西。</text>
+</svg>

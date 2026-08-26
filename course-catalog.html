@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="小王AI课课程目录：从聊天到 Agent，逐步搭建自己的 AI 数字员工。" />
+    <title>小王AI课｜课程目录</title>
+    <style>
+      :root {
+        --ink: #171714;
+        --muted: #74716b;
+        --paper: #faf8f1;
+        --paper-deep: #f0ede4;
+        --yellow: #f6e33f;
+        --green: #b8dfcc;
+        --red: #b94b35;
+        --line: 2px solid var(--ink);
+        --shadow: 8px 8px 0 var(--ink);
+      }
+      * { box-sizing: border-box; }
+      html { background: var(--paper); }
+      body { margin: 0; color: var(--ink); background: var(--paper); font-family: Arial, "Microsoft YaHei", sans-serif; }
+      button { font: inherit; }
+      .topbar { display: flex; align-items: center; justify-content: space-between; min-height: 76px; padding: 14px 6vw; border-bottom: var(--line); background: var(--yellow); }
+      .brand { color: var(--ink); text-decoration: none; }
+      .brand small { display: block; margin-bottom: 3px; font-size: 10px; font-weight: 900; letter-spacing: .12em; }
+      .brand strong { display: block; font-size: 24px; line-height: 1; }
+      .topbar-note { font-size: 13px; font-weight: 800; }
+      .hero { padding: 72px 6vw 58px; border-bottom: var(--line); background: var(--yellow); }
+      .eyebrow { margin: 0 0 14px; color: var(--red); font-size: 12px; font-weight: 900; letter-spacing: .12em; }
+      h1 { max-width: 800px; margin: 0; font-size: clamp(46px, 7vw, 104px); line-height: .95; letter-spacing: -.04em; }
+      .hero p:last-child { max-width: 700px; margin: 24px 0 0; color: #514f47; font-size: 17px; line-height: 1.7; }
+      .catalog-shell { width: min(1500px, 88vw); margin: 58px auto 90px; }
+      .catalog { display: grid; grid-template-columns: 300px minmax(0, 1fr); border: var(--line); box-shadow: var(--shadow); background: white; }
+      .module-nav { background: var(--ink); }
+      .module-tab { width: 100%; min-height: 118px; display: grid; grid-template-columns: 66px minmax(0, 1fr); align-items: center; gap: 16px; padding: 20px 24px; color: white; text-align: left; border: 0; border-bottom: 1px solid #4b4a46; background: transparent; cursor: pointer; }
+      .module-tab:hover { background: #292925; }
+      .module-tab[aria-selected="true"] { color: var(--ink); background: var(--yellow); }
+      .module-tab b { font-size: 30px; font-weight: 900; }
+      .module-tab span { display: block; font-size: 15px; font-weight: 900; line-height: 1.35; }
+      .module-tab small { display: block; margin-top: 5px; font-size: 11px; font-weight: 700; opacity: .72; }
+      .module-content { padding: 42px 48px 28px; background: white; }
+      .module-kicker { margin: 0 0 14px; color: var(--red); font-size: 12px; font-weight: 900; letter-spacing: .1em; }
+      .module-content h2 { margin: 0; font-size: clamp(27px, 3vw, 42px); line-height: 1.12; }
+      .module-result { display: flex; align-items: baseline; gap: 18px; margin: 26px 0 22px; padding: 18px 22px; border-left: 8px solid var(--yellow); background: var(--paper); }
+      .module-result span { color: var(--red); font-size: 13px; font-weight: 900; }
+      .module-result strong { font-size: 22px; }
+      .module-description { max-width: 780px; margin: 0 0 34px; color: var(--muted); font-size: 16px; line-height: 1.8; }
+      .lesson-list { margin: 0; padding: 0; list-style: none; border-top: var(--line); }
+      .lesson-item { display: grid; grid-template-columns: 60px minmax(0, 1fr); gap: 18px; align-items: center; min-height: 88px; padding: 16px 4px; border-bottom: 1px solid var(--ink); }
+      .lesson-no { font-size: 15px; font-weight: 900; }
+      .lesson-item strong { display: block; margin-bottom: 5px; font-size: 16px; line-height: 1.45; }
+      .lesson-item small { display: block; color: var(--muted); font-size: 12px; line-height: 1.5; }
+      .lesson-group { display: flex; align-items: center; gap: 10px; min-height: 40px; margin-top: 16px; padding: 0 12px; border-block: 1px solid var(--ink); background: var(--paper-deep); font-size: 13px; font-weight: 900; }
+      .lesson-group:first-child { margin-top: 0; }
+      .lesson-group::before { content: ""; width: 8px; height: 21px; background: var(--ink); }
+      .lesson-group small { margin-left: auto; color: var(--muted); font-size: 11px; font-weight: 700; }
+      .lesson-group.skills { background: #fff6a6; }
+      .lesson-group.skills::before { background: var(--yellow); }
+      .lesson-group.knowledge { background: #dcefe8; }
+      .lesson-group.knowledge::before { background: #2b9b70; }
+      .lesson-group.browser { background: #f8dfd5; }
+      .lesson-group.browser::before { background: var(--red); }
+      .footer { padding: 28px 6vw; border-top: var(--line); color: var(--muted); font-size: 12px; }
+      @media (max-width: 800px) {
+        .topbar { padding-inline: 20px; }
+        .topbar-note { display: none; }
+        .hero { padding: 48px 20px 40px; }
+        .catalog-shell { width: auto; margin: 28px 16px 60px; }
+        .catalog { display: block; box-shadow: 4px 4px 0 var(--ink); }
+        .module-nav { display: grid; grid-template-columns: repeat(5, minmax(128px, 1fr)); overflow-x: auto; }
+        .module-tab { min-height: 100px; grid-template-columns: 1fr; gap: 4px; padding: 14px 13px; }
+        .module-tab b { font-size: 22px; }
+        .module-tab span { font-size: 12px; }
+        .module-tab small { font-size: 10px; }
+        .module-content { padding: 28px 18px 18px; }
+        .module-result { display: block; padding: 14px 16px; }
+        .module-result strong { display: block; margin-top: 6px; font-size: 19px; }
+        .lesson-item { grid-template-columns: 44px minmax(0, 1fr); gap: 10px; min-height: 82px; }
+        .lesson-item strong { font-size: 14px; }
+        .lesson-item small { font-size: 11px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="course-catalog.html"><small>LEARN BY DOING · XIAO WANG AI</small><strong>小王AI课</strong></a>
+      <span class="topbar-note">课程目录 · 30 天 Agent 实操</span>
+    </header>
+    <section class="hero">
+      <p class="eyebrow">COURSE CATALOG · 课程目录</p>
+      <h1>从聊天到 Agent</h1>
+      <p>先把心态放下，再把 AI 变成真正能干活的数字员工。四个正式模块，配合一组导读内容，按顺序完成从认识 Agent 到工作流实战的学习。</p>
+    </section>
+    <main class="catalog-shell">
+      <div class="catalog">
+        <nav class="module-nav" id="module-nav" aria-label="课程模块"></nav>
+        <section class="module-content" aria-live="polite">
+          <p class="module-kicker" id="module-kicker"></p>
+          <h2 id="module-title"></h2>
+          <div class="module-result"><span>本模块结果</span><strong id="module-result"></strong></div>
+          <p class="module-description" id="module-description"></p>
+          <ol class="lesson-list" id="lesson-list"></ol>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">小王AI课 · 学一点，做一遍，留下自己的方法。</footer>
+    <script>
+      const modules = [
+        { no: "00", label: "心态篇", title: "撒手去干，不要怕", result: "先完成，再补需要的知识", description: "正式课程开始前，先把最大的心理门槛拿掉：你不需要先变成程序员，才有资格让 AI 帮你做事。", lessons: [
+          ["0.1", "撒手去干，不要怕", "直击目标，不从底层原理开始 · 18 分钟"],
+          ["0.2", "我的 AI Agent 入门故事", "听讲师怎样找老师、付费学习，并在项目里磨出 AI 体感 · 故事课 · 25 分钟"],
+          ["0.3", "第一次卡住怎么办", "停下来、看清楚、再问一次，不靠换工具逃避 · 22 分钟"]
+        ] },
+        { no: "01", label: "从聊天到 Agent", title: "从聊天到 Agent", result: "让 AI 成为你的第一个数字员工", description: "这一模块不急着安装一堆工具。我们从真正会遇到的困惑出发：Agent 和聊天有什么不同、工具怎么选、为什么会跑偏，以及怎样安全地把第一件事交出去。", lessons: [
+          ["1.1", "你的 AI 只会聊天，还是能干活？", "现场看 AI 把一件真事干完：整理桌面、清理 C 盘、检查网速 · 25 分钟"],
+          ["1.2", "给你的 AI 员工办入职：装好三个工具", "先挑优秀员工：用 Codex、WorkBuddy、Trae 各跑通一件擅长的事 · 35 分钟"],
+          ["1.3", "老板怎么派活：把活交代漂亮", "先说意图，再谈做法：用七要素把活交代清楚，先让 AI 做到 70 分以上 · 30 分钟"],
+          ["1.4", "让 Agent 员工掌握 72 变，插上翅膀", "先完成，再完美：认识浏览器自动化、MCP、Skill、知识库四样翅膀 · 35 分钟"],
+          ["1.5", "让 Agent 7×24 小时替你干活", "定时任务到点自动开工 + 多任务并行同时干——你睡觉，它干活 · 25 分钟"],
+          ["1.6", "用 CC Switch 切换员工，降低 Agent 使用成本", "用 CC Switch 切换数字员工：在 Codex 里接入 DeepSeek 和其他供应商 · 40 分钟"],
+          ["1.7", "GitHub 的神奇用法", "保存工作记录、获取 Skill、发现优秀 AI 项目，还能把网站上线 · 55 分钟"]
+        ] },
+        { no: "02", label: "Agent 能力扩展", title: "Agent 能力扩展", result: "让 Agent 具备可复用、可调用的能力", description: "从会用 Agent 到让 Agent 真正能干活：逐步补齐上下文、Skill、知识库与浏览器自动化能力。", groups: [
+          { label: "模块导读", className: "orientation", count: 2 }, { label: "Skills 进阶", className: "skills", count: 6 }, { label: "知识库进阶", className: "knowledge", count: 4 }, { label: "浏览器自动化进阶", className: "browser", count: 3 }
+        ], lessons: [
+          ["2.1", "导读：让 Agent 学会 72 变，插上翅膀", "先看懂 Skill、知识库、上下文和浏览器自动化各自解决什么问题 · 15 分钟", "模块导读"],
+          ["2.2", "给足上下文：上传截图，让 AI 快速定位问题", "用参考图说明目标，用标注图指出不满，让 AI 少猜一步 · 30 分钟", "模块导读"],
+          ["2.3", "Skill进阶：为什么 Skill 这么神奇？", "把别人的经验、品味和方法复用到自己的 Agent · 30 分钟", "Skills 进阶"],
+          ["2.4", "Skill 的技能：无痛使用 Skills 技能", "获取 Skill 技能的四种方式 · 35 分钟", "Skills 进阶"],
+          ["2.5", "Skills 进阶：无痛制作 Skills 技能，做出专属的技能", "先跑一遍，再沉淀：把一套稳定方法变成 Agent 的专属技能 · 35 分钟", "Skills 进阶"],
+          ["2.6", "Skill进阶：把一本书蒸馏成 Skill", "不用读完，让 AI 把书里的方法论变成可执行的技能 · 30 分钟", "Skills 进阶"],
+          ["2.7", "Skill进阶：把一个大 V 蒸馏成 Skill", "分析博主的选题/风格/结构，变成你自己的写作助手 · 30 分钟", "Skills 进阶"],
+          ["2.8", "Skill进阶：别从零造，把别人的 Skill 改成你的", "好 Skill 直接拿来用，只改你真正忍不了的 5%—10% · 25 分钟", "Skills 进阶"],
+          ["2.9", "知识库进阶：为什么要学习知识库？", "没有 Agent，知识库只是笔记；有了数字员工，它才变成业务底座 · 20 分钟", "知识库进阶"],
+          ["2.10", "知识库进阶：为什么我们要选择 Obsidian？", "本地文件、Markdown、可迁移：让知识库真正适合 Agent 调用 · 25 分钟", "知识库进阶"],
+          ["2.11", "知识库进阶：让 Agent 读你的知识库", "先别急着整理，先让 Agent 能找到并读到你的 Obsidian 文件 · 30 分钟", "知识库进阶"],
+          ["2.12", "知识库进阶：让外部素材自动流进来", "不是收藏一切，而是让 Agent 把有价值的外部素材变成你的业务资产 · 25 分钟", "知识库进阶"],
+          ["2.13", "浏览器自动化进阶：让你的收藏宝贝信息二次利用", "从 Twitter 书签、抖音和小红书收藏里提炼好内容，交给 Agent 分析并沉淀 · 35 分钟", "浏览器自动化进阶"],
+          ["2.14", "浏览器自动化进阶：监控变化自动提醒", "盯一个页面，变了就通知你——抢课/比价/盯更新 · 25 分钟", "浏览器自动化进阶"],
+          ["2.15", "浏览器自动化进阶：操作网页后台与发布", "没有 API 的网站也能操作：填表、发布、批量处理 · 25 分钟", "浏览器自动化进阶"]
+        ] },
+        { no: "03", label: "工作流和自动化案例", title: "工作流和自动化案例", result: "把重复的事交出去，一次搭好反复用", description: "识别真正值得自动化的环节，设计输入、处理、检查与交付，让 AI 不再每次从头猜。", lessons: [["3.1", "从0~1跑通AI自媒体内容流程", "把 Agent、Skill、知识库和浏览器自动化串起来，完整跑通一次内容生产 · 40 分钟"], ["3.2", "人在外面玩，活照样干：手机自动化办公", "Codex + 浏览器自动化 + 悠悠远程 + 一部手机，边溜达边把活干完 · 22 分钟"]] },
+        { no: "04", label: "做自己的 AI 工具", title: "做自己的 AI 工具", result: "从一个真实问题做到一个能用的第一版", description: "把一句话需求做成一个能跑、能发给别人、能上线的真实产品。", lessons: [["4.1", "小白也能用 Agent 做出微信小程序", "从一句话需求到真机可用的微信小程序，全程不用写代码 · 40 分钟"]] }
+      ];
+      const nav = document.querySelector("#module-nav");
+      const title = document.querySelector("#module-title");
+      const kicker = document.querySelector("#module-kicker");
+      const result = document.querySelector("#module-result");
+      const description = document.querySelector("#module-description");
+      const list = document.querySelector("#lesson-list");
+      function render(index) {
+        const module = modules[index];
+        nav.innerHTML = modules.map((item, itemIndex) => `<button class="module-tab" type="button" role="tab" aria-selected="${itemIndex === index}" data-module="${itemIndex}"><b>${item.no}</b><span>${item.label}<small>${item.lessons.length} 节课</small></span></button>`).join("");
+        kicker.textContent = index === 0 ? "导读 · 心态篇" : `模块 ${module.no} · ${module.label}`;
+        title.textContent = module.title;
+        result.textContent = module.result;
+        description.textContent = module.description;
+        let lastGroup = "";
+        list.innerHTML = module.lessons.map(lesson => {
+          const group = lesson[3];
+          const groupData = module.groups?.find(item => item.label === group);
+          const groupMarkup = group && group !== lastGroup ? `<li class="lesson-group ${groupData?.className || ""}"><strong>${group}</strong><small>${groupData?.count || ""} 节课</small></li>` : "";
+          lastGroup = group || lastGroup;
+          return `${groupMarkup}<li class="lesson-item"><span class="lesson-no">${lesson[0]}</span><span><strong>${lesson[1]}</strong><small>${lesson[2]}</small></span></li>`;
+        }).join("");
+        nav.querySelector(`[data-module="${index}"]`).focus({ preventScroll: true });
+      }
+      nav.addEventListener("click", event => { const button = event.target.closest("[data-module]"); if (button) render(Number(button.dataset.module)); });
+      render(0);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+/
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/app.js
+  Cache-Control: no-cache
+
+/preview-cards.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/assets/knowledge-cards/lesson-01.png
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/assets/knowledge-cards/lesson-02.png
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/assets/knowledge-cards/lesson-03.png
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/assets/knowledge-cards/lesson-27.png
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/styles.css
+  Cache-Control: no-cache

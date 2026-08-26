@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#f8f2e8"/>
+  <rect x="36" y="36" width="1528" height="928" fill="#fffdf8" stroke="#11110f" stroke-width="4"/>
+  <rect x="816" y="76" width="680" height="848" fill="#f2eadc"/>
+  <image href="preview-qilin-browser-card-art.png" x="816" y="76" width="680" height="848" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="816" y="76" width="680" height="848" fill="#fffdf8" opacity=".08"/>
+  <text x="88" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#f0523e">浏览器自动化进阶 · 知识点卡片 14</text>
+  <text x="88" y="196" font-family="Arial, Microsoft YaHei, sans-serif" font-size="48" font-weight="900" fill="#11110f">让收藏里的好东西</text>
+  <text x="88" y="258" font-family="Arial, Microsoft YaHei, sans-serif" font-size="48" font-weight="900" fill="#11110f">再次为你工作</text>
+  <text x="88" y="318" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#5c5a54">浏览器自动化进阶：让你的收藏宝贝信息二次利用</text>
+  <rect x="88" y="382" width="640" height="108" fill="#fff4a8" stroke="#11110f" stroke-width="3"/>
+  <rect x="88" y="382" width="10" height="108" fill="#f0523e"/>
+  <text x="122" y="420" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="900" fill="#f0523e">第一步 · 进入收藏</text>
+  <text x="122" y="462" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#11110f">打开 Twitter / 抖音 / 小红书收藏</text>
+  <rect x="88" y="520" width="640" height="108" fill="#dff0e8" stroke="#11110f" stroke-width="3"/>
+  <rect x="88" y="520" width="10" height="108" fill="#43a56f"/>
+  <text x="122" y="558" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="900" fill="#43a56f">第二步 · 让 Agent 筛选</text>
+  <text x="122" y="600" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#11110f">只找符合这次主题的内容</text>
+  <rect x="88" y="658" width="640" height="108" fill="#f8ded7" stroke="#11110f" stroke-width="3"/>
+  <rect x="88" y="658" width="10" height="108" fill="#f0523e"/>
+  <text x="122" y="696" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="900" fill="#f0523e">第三步 · 分析并沉淀</text>
+  <text x="122" y="738" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#11110f">提炼观点，写进 Obsidian</text>
+  <text x="88" y="846" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="900" fill="#11110f">收藏不是终点：筛选 → 分析 → 进入你的知识库</text>
+  <text x="88" y="892" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#5c5a54">把已经验证过的好内容，变成下一次创作可以调用的素材。</text>
+</svg>

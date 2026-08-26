@@ -1,0 +1,17 @@
+# Local deployment copies and provider state
+.deploy-*/
+.wrangler/
+
+# Local design and generation workspaces
+.card-header-tmp/
+.impeccable/
+.logo-preview/
+output/
+
+# Historical local copies
+*.bak
+*.bak[0-9]
+
+# Operating system files
+.DS_Store
+Thumbs.db

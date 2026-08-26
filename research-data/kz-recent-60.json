@@ -1,0 +1,602 @@
+[
+  {
+    "title": "都Agent时代了，我还是想分享给你这12个我最常用的Prompt。",
+    "publishTime": "2026-08-21 08:08:00",
+    "workUuid": "5395139559ed6f35e576b883a624102a",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685346&idx=1&sn=0fc8dc62bcf67a466552d1204205ef31#rd",
+    "readCount": 100001,
+    "collectCount": 7976,
+    "shareCount": 21782,
+    "likeCount": 6807
+  },
+  {
+    "title": "创业2年半后，想跟你分享关于AI组织的这7点心得。",
+    "publishTime": "2026-08-20 07:58:00",
+    "workUuid": "01e35de215da1cb0c2fad2bd520fb04e",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685338&idx=1&sn=8b806782aabc9709a716794bfac24fe0#rd",
+    "readCount": 57126,
+    "collectCount": 1254,
+    "shareCount": 6183,
+    "likeCount": 3293
+  },
+  {
+    "title": "聊聊唐杰老师对GLM-5.3和Scaling Law的思考",
+    "publishTime": "2026-08-19 14:42:14",
+    "workUuid": "93c6032c65e07aa625bbba2e93824d53",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685331&idx=1&sn=7de04d2b464e8f9eec5af238b78e86c5#rd",
+    "readCount": 73722,
+    "collectCount": 443,
+    "shareCount": 1723,
+    "likeCount": 787
+  },
+  {
+    "title": "一个极度实用的深度思考Prompt，帮你挖出最本质的答案。",
+    "publishTime": "2026-08-18 07:58:00",
+    "workUuid": "02bfea9bc6e61d688d5954aecfdc5435",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4#rd",
+    "readCount": 97951,
+    "collectCount": 4191,
+    "shareCount": 14803,
+    "likeCount": 5156
+  },
+  {
+    "title": "说一个反常识的真相，Agent如今在真实工作场景的成功率依然很低。",
+    "publishTime": "2026-08-17 08:09:00",
+    "workUuid": "91e2bb0de8d8c0f8824060afff1f6e15",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685310&idx=1&sn=a62263bd647f948b3d7a9492337fd137#rd",
+    "readCount": 94398,
+    "collectCount": 1051,
+    "shareCount": 5635,
+    "likeCount": 2388
+  },
+  {
+    "title": "从0到1带你速通DeepSeek Harness。",
+    "publishTime": "2026-08-14 07:58:00",
+    "workUuid": "2d9d3cba788a9a158fcc89bdb42a009c",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2#rd",
+    "readCount": 100001,
+    "collectCount": 2828,
+    "shareCount": 15999,
+    "likeCount": 5085
+  },
+  {
+    "title": "WorkBuddy上线远程控制，国内也有了最丝滑的Agent工作方式。",
+    "publishTime": "2026-08-13 12:32:24",
+    "workUuid": "05838578424b8580563ce742b80bf620",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7#rd",
+    "readCount": 86519,
+    "collectCount": 892,
+    "shareCount": 7281,
+    "likeCount": 1585
+  },
+  {
+    "title": "从0开始，12步学会用好AI。",
+    "publishTime": "2026-08-12 08:08:00",
+    "workUuid": "8b51b3257585ca89e7d1cf41a189d044",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685084&idx=1&sn=0899296dbc140eeb745f7a99f9d5ed9c#rd",
+    "readCount": 100001,
+    "collectCount": 5502,
+    "shareCount": 17848,
+    "likeCount": 4971
+  },
+  {
+    "title": "我花了54个小时，做了一个可能更公平的AI大模型排行榜。",
+    "publishTime": "2026-08-10 08:52:19",
+    "workUuid": "20c72fca4d3081952748a12617f4fa93",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685059&idx=1&sn=a329fe9999ac2419470c7eca9a97acd3#rd",
+    "readCount": 100001,
+    "collectCount": 703,
+    "shareCount": 3336,
+    "likeCount": 2291
+  },
+  {
+    "title": "一周以后，我想我终于可以来聊聊Seedance 2.5了。",
+    "publishTime": "2026-08-07 14:13:36",
+    "workUuid": "467616a943bd0a33fab543c4f13001f7",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647685043&idx=1&sn=c844b6ad01c2bd4ae50eb5fcc5bb7a69#rd",
+    "readCount": 69833,
+    "collectCount": 424,
+    "shareCount": 5980,
+    "likeCount": 2110
+  },
+  {
+    "title": "OpenAI开源的这个安全插件，是每个Vibe Coding的人都必装的神器。",
+    "publishTime": "2026-08-06 09:15:29",
+    "workUuid": "5c546ecaabcbf9bef3f8f0665704e3f0",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684990&idx=1&sn=86a6d71b133589916b49a9d57046c127#rd",
+    "readCount": 58274,
+    "collectCount": 1024,
+    "shareCount": 4385,
+    "likeCount": 1296
+  },
+  {
+    "title": "开源「活人感写作.skill」，只为帮你写出没有AI味的文字。",
+    "publishTime": "2026-08-05 09:35:42",
+    "workUuid": "7ec56960db9f4bea45732415d5bc4995",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684946&idx=1&sn=ae7edcc572b998dc4e1ac3591977aa85#rd",
+    "readCount": 77970,
+    "collectCount": 2244,
+    "shareCount": 11420,
+    "likeCount": 3269
+  },
+  {
+    "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件。",
+    "publishTime": "2026-08-04 08:06:00",
+    "workUuid": "5bc2c63f43c5428cf900be4faf4f546a",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d#rd",
+    "readCount": 100001,
+    "collectCount": 1222,
+    "shareCount": 6575,
+    "likeCount": 2414
+  },
+  {
+    "title": "体验了两周Robot Phone，这是我第一次觉得手机活过来了。",
+    "publishTime": "2026-08-03 16:28:23",
+    "workUuid": "8fc6078592bc1e5cbe82ce5f8dde6a2a",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684861&idx=1&sn=f9469657e0eacfc43eda92dfcb67b3dc#rd",
+    "readCount": 76608,
+    "collectCount": 195,
+    "shareCount": 6173,
+    "likeCount": 1552
+  },
+  {
+    "title": "MiniMax H3发布，还要开源，AI视频终于有了自己的后期之王。",
+    "publishTime": "2026-07-31 10:21:38",
+    "workUuid": "c774547c591557f6f66b101be353fc8e",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684857&idx=1&sn=03c84df8bc0389c4ceb8f50f6c0015e3#rd",
+    "readCount": 61765,
+    "collectCount": 345,
+    "shareCount": 5912,
+    "likeCount": 1636
+  },
+  {
+    "title": "WorkBuddy的这个新功能，我觉得就是Agent时代的Office。",
+    "publishTime": "2026-07-30 12:30:35",
+    "workUuid": "db6bf1aa945c20a9f5cb4a92c83c5341",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684792&idx=1&sn=63a0fd8e458f915460b6d0ca06173c04#rd",
+    "readCount": 100001,
+    "collectCount": 1710,
+    "shareCount": 12737,
+    "likeCount": 2814
+  },
+  {
+    "title": "今天，我的Claude也被封号了。",
+    "publishTime": "2026-07-29 08:06:00",
+    "workUuid": "3423c11186bbe260b0013a467d268ba1",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684711&idx=1&sn=ad73fd9c5dcb7eaad9f738d7529ef8c1#rd",
+    "readCount": 100001,
+    "collectCount": 1490,
+    "shareCount": 12927,
+    "likeCount": 6706
+  },
+  {
+    "title": "黄仁勋、Kimi K3，与一场即将到来的开源战争。",
+    "publishTime": "2026-07-28 08:06:00",
+    "workUuid": "7b3d0e3168d2bccabca8849e592f824b",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684685&idx=1&sn=63082ee2aa0add9e44ad21758f259f62#rd",
+    "readCount": 81866,
+    "collectCount": 529,
+    "shareCount": 4565,
+    "likeCount": 3992
+  },
+  {
+    "title": "浪费20亿Token之后，我开源了一个帮自己定义目标的Skill。",
+    "publishTime": "2026-07-27 08:12:00",
+    "workUuid": "60d2d6b77c6a6d860d8afa9ab847cfff",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684648&idx=1&sn=d246e9edd3be0f08cbd738b0531add21#rd",
+    "readCount": 70432,
+    "collectCount": 1503,
+    "shareCount": 6871,
+    "likeCount": 2246
+  },
+  {
+    "title": "Claude Opus 5深夜发布，以一半价格逼近Fable 5。",
+    "publishTime": "2026-07-25 06:31:43",
+    "workUuid": "9406b8ba7de671f56df92e683283966a",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684622&idx=1&sn=dab33249e9c9bd280524c433b9435764#rd",
+    "readCount": 65951,
+    "collectCount": 321,
+    "shareCount": 2718,
+    "likeCount": 1319
+  },
+  {
+    "title": "一文带你看懂刚刚发布的“北京智能体新政”，这是跟每个人都有关的10条。",
+    "publishTime": "2026-07-23 13:15:12",
+    "workUuid": "63bd6b53d3a9882a153c8ef2f5128dcd",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684593&idx=1&sn=b2e76aecde34fc1b07df0cd61fdabdd3#rd",
+    "readCount": 93910,
+    "collectCount": 1472,
+    "shareCount": 10927,
+    "likeCount": 2839
+  },
+  {
+    "title": "腾讯悄悄上线了他们第一个设计Agent - Miora。",
+    "publishTime": "2026-07-22 12:22:55",
+    "workUuid": "57af97a89d138d94871bbff365ca6d0c",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684576&idx=1&sn=4223ca3e47a04e2199d367919fc61d16#rd",
+    "readCount": 100001,
+    "collectCount": 1555,
+    "shareCount": 13277,
+    "likeCount": 2293
+  },
+  {
+    "title": "AI说不出的随机数，成了鉴别套壳大模型最好的照妖镜。",
+    "publishTime": "2026-07-21 09:11:53",
+    "workUuid": "1f0407a64cf051a3620fc97e61caa73b",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684494&idx=1&sn=07a7145e707212eab2555527fdfbcd11#rd",
+    "readCount": 100001,
+    "collectCount": 1026,
+    "shareCount": 6878,
+    "likeCount": 4315
+  },
+  {
+    "title": "不会代码也能做产品，这是一份从0开始的Vibe Coding保姆级教程。",
+    "publishTime": "2026-07-20 08:08:00",
+    "workUuid": "45292f3134a76e7c0dfe26ed0bc0f85d",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684477&idx=1&sn=72674b279b4469db24097d74c0384032#rd",
+    "readCount": 74816,
+    "collectCount": 4045,
+    "shareCount": 12013,
+    "likeCount": 3774
+  },
+  {
+    "title": "Kimi正式发布2.8万亿大模型K3，这是属于我们的荣光。",
+    "publishTime": "2026-07-17 06:08:32",
+    "workUuid": "54102e8d8b0fa1212379c91091903b69",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684392&idx=1&sn=a708ff725bfd9f1f2cab63fcdaa30bf7#rd",
+    "readCount": 100001,
+    "collectCount": 903,
+    "shareCount": 11157,
+    "likeCount": 4066
+  },
+  {
+    "title": "分享一下我现在随时随地让Agent干活的远程操控方案。",
+    "publishTime": "2026-07-16 08:12:00",
+    "workUuid": "dfc0a060cea592b2138469f3cd6508c6",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684316&idx=1&sn=ce3be5f7786f7cacb3fc819f8dd445fe#rd",
+    "readCount": 100001,
+    "collectCount": 3227,
+    "shareCount": 11516,
+    "likeCount": 2741
+  },
+  {
+    "title": "平均每天Vibe Coding 16小时后，这是我觉得Fable 5和GPT-5.6时代最好用的AI开发流程。",
+    "publishTime": "2026-07-15 08:02:00",
+    "workUuid": "e2419ef85f149571ff72816f9db19236",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684272&idx=1&sn=6c61d300d4bbf1b550be2f7fc68fda22#rd",
+    "readCount": 100001,
+    "collectCount": 1806,
+    "shareCount": 7310,
+    "likeCount": 2648
+  },
+  {
+    "title": "聊聊今年涌进Anthropic的N个巨佬，他们押注的是下一个十年。",
+    "publishTime": "2026-07-14 08:11:00",
+    "workUuid": "5946648bd3c3274dbc763d44beb4e8f1",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684248&idx=1&sn=d91f418c791082ef0420ef169d52de78#rd",
+    "readCount": 63277,
+    "collectCount": 720,
+    "shareCount": 3751,
+    "likeCount": 1279
+  },
+  {
+    "title": "我只让Grok回复一个单词，它就把我整个代码库都偷走了。",
+    "publishTime": "2026-07-13 08:05:00",
+    "workUuid": "adf7b766ead762447d7e116e6cbd01cd",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684233&idx=1&sn=391c84ef158f723c83108c29d8e2d666#rd",
+    "readCount": 100001,
+    "collectCount": 407,
+    "shareCount": 8496,
+    "likeCount": 3244
+  },
+  {
+    "title": "GPT-5.6深夜上线，ChatGPT和Codex正式合并，一个时代结束了。",
+    "publishTime": "2026-07-10 06:11:13",
+    "workUuid": "f2c8d22bf988b5735945252bca40d087",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684187&idx=1&sn=c8486c0e0aee773ad3b3c63c4a224f18#rd",
+    "readCount": 100001,
+    "collectCount": 1727,
+    "shareCount": 24106,
+    "likeCount": 6703
+  },
+  {
+    "title": "我把斯坦福最火的一门课，做成了Prompt来帮我设计人生。",
+    "publishTime": "2026-07-08 08:13:12",
+    "workUuid": "cfefe1bab82e6aa955b9de523561bfcc",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684133&idx=1&sn=0cdba19fe8e791825e3710d36b6d7c44#rd",
+    "readCount": 100001,
+    "collectCount": 4211,
+    "shareCount": 19861,
+    "likeCount": 5156
+  },
+  {
+    "title": "聊聊Anthropic这篇最新研究，我觉得可能是AI意识诞生的前夜。",
+    "publishTime": "2026-07-07 07:56:00",
+    "workUuid": "91c98b122f992b5472b73e93279ee94c",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684093&idx=1&sn=bc4c37311e640fe65e27a9d57d0c85c3#rd",
+    "readCount": 100001,
+    "collectCount": 2418,
+    "shareCount": 14671,
+    "likeCount": 4861
+  },
+  {
+    "title": "我的网站被攻击了48个小时，Claude Fable 5替我防下了这一切。",
+    "publishTime": "2026-07-06 08:07:00",
+    "workUuid": "b4dbb9f2209bea0d7d4e342d190f3bb2",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684065&idx=1&sn=f6a7e4e0f14161594677c6c8768c0f11#rd",
+    "readCount": 94107,
+    "collectCount": 603,
+    "shareCount": 4413,
+    "likeCount": 3665
+  },
+  {
+    "title": "记一个我被Claude Fable 5震撼的瞬间。",
+    "publishTime": "2026-07-03 08:16:00",
+    "workUuid": "107b01b608ccb67458cc6fda6bf21dc6",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684048&idx=1&sn=d9aa57391cc1944d6443fb877f31ee62#rd",
+    "readCount": 100001,
+    "collectCount": 2176,
+    "shareCount": 19832,
+    "likeCount": 6198
+  },
+  {
+    "title": "Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。",
+    "publishTime": "2026-07-01 08:11:00",
+    "workUuid": "a25d41f52fa8eb156a9f0a1af60446ee",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647684025&idx=1&sn=8b4a8bd2dc728ffccfbeffb9fc013ff5#rd",
+    "readCount": 100001,
+    "collectCount": 1372,
+    "shareCount": 31389,
+    "likeCount": 7027
+  },
+  {
+    "title": "给机器人打工了一天，我们体验上了AI时代最魔幻的工作。",
+    "publishTime": "2026-06-30 09:58:00",
+    "workUuid": "95d6bcc0ec844edd0505d6d2b3ff51b1",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683959&idx=1&sn=c0b48752ca1e898d86c75cfce7538e39#rd",
+    "readCount": 48224,
+    "collectCount": 222,
+    "shareCount": 4195,
+    "likeCount": 1342
+  },
+  {
+    "title": "分享2个Vibe Coding必备的超实用Prompt。",
+    "publishTime": "2026-06-29 10:08:00",
+    "workUuid": "08d8b14c506cbce32eb331bea72e9bfd",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683924&idx=1&sn=76d9327a863ff3da67e736da1b97e8c6#rd",
+    "readCount": 76216,
+    "collectCount": 2341,
+    "shareCount": 9220,
+    "likeCount": 3500
+  },
+  {
+    "title": "想玩Loop Engineering，可以先从这6个Hook玩法开始。",
+    "publishTime": "2026-06-26 10:02:00",
+    "workUuid": "1f3294c89876e70d4c6ddf4f4bbe9a6e",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683904&idx=1&sn=6e328251d73dcf7e86ea4a42fe8e1f8d#rd",
+    "readCount": 56820,
+    "collectCount": 1506,
+    "shareCount": 6299,
+    "likeCount": 1625
+  },
+  {
+    "title": "盘点16个把自己蒸馏成Skills的国民级App。",
+    "publishTime": "2026-06-25 10:02:00",
+    "workUuid": "5a3e6c5aad881bea93dc2dcb5c3f5be8",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683875&idx=1&sn=ef0b89b28e2be5117a690c2c869b2920#rd",
+    "readCount": 100001,
+    "collectCount": 1720,
+    "shareCount": 8588,
+    "likeCount": 2019
+  },
+  {
+    "title": "体验完微信Agent以后，我觉得这就是微信有史以来最大的更新。",
+    "publishTime": "2026-06-24 10:02:00",
+    "workUuid": "4d911d9fd2d01835e5739b313d409f6f",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683790&idx=1&sn=43c90d4ebe98a2ff2cd241a95a94a38d#rd",
+    "readCount": 100001,
+    "collectCount": 966,
+    "shareCount": 9251,
+    "likeCount": 2085
+  },
+  {
+    "title": "一文总结2026火山引擎FORCE大会 - 向Coding和Agent全面进军。",
+    "publishTime": "2026-06-23 12:15:38",
+    "workUuid": "8b781dd61ced71395a89b427b6e88bb5",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683758&idx=1&sn=2839cf8818c4651de1f1b95338353066#rd",
+    "readCount": 55605,
+    "collectCount": 254,
+    "shareCount": 6021,
+    "likeCount": 1478
+  },
+  {
+    "title": "AI用得好不好，跟你会不会管人，我觉得越来越是同一件事。",
+    "publishTime": "2026-06-22 10:08:00",
+    "workUuid": "5473123016193649ab3fea510c3b7602",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683699&idx=1&sn=b33fa1dde9afc67a8b97587dd4efd6d6#rd",
+    "readCount": 65164,
+    "collectCount": 1047,
+    "shareCount": 5049,
+    "likeCount": 2362
+  },
+  {
+    "title": "分享10本我觉得AI时代应该必读的好书。",
+    "publishTime": "2026-06-18 09:03:00",
+    "workUuid": "56c6e06f4f447f9cf66b5aaeccfa9184",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683688&idx=1&sn=b08ac6a670f4a29805f37d05215a5771#rd",
+    "readCount": 100001,
+    "collectCount": 5211,
+    "shareCount": 14581,
+    "likeCount": 5118
+  },
+  {
+    "title": "2026年的毕业生们，正在花钱向AI证明自己是人类。",
+    "publishTime": "2026-06-16 10:06:00",
+    "workUuid": "3bcc69c5680dc568c340eaa3cdc3d885",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683664&idx=1&sn=65f259ffc12a29f754fb94cfc6d5ad5e#rd",
+    "readCount": 46928,
+    "collectCount": 199,
+    "shareCount": 1987,
+    "likeCount": 1617
+  },
+  {
+    "title": "Prompt该退环境了，未来属于Loop Engineering。",
+    "publishTime": "2026-06-15 10:05:00",
+    "workUuid": "309637e45bea8705bb54d9cab5fb8852",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683561&idx=1&sn=cb696e11357022c64360c79bf9471f22#rd",
+    "readCount": 100001,
+    "collectCount": 2025,
+    "shareCount": 11877,
+    "likeCount": 4111
+  },
+  {
+    "title": "实测GLM-5.2，国产Coding模型的又一座新高峰。",
+    "publishTime": "2026-06-13 20:36:52",
+    "workUuid": "d4803a8702a27c7a438ce246bda6d402",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683547&idx=1&sn=7bf34faa81ecee90ae2dd048298cbea2#rd",
+    "readCount": 100001,
+    "collectCount": 547,
+    "shareCount": 4490,
+    "likeCount": 2536
+  },
+  {
+    "title": "让5个AI文明自己活15天，Claude建成了乌托邦，Grok四天团灭。",
+    "publishTime": "2026-06-12 10:08:00",
+    "workUuid": "5b6f55d26e4b168485a62dae13904f84",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683508&idx=1&sn=aa14e401d44137aa648fb242b97f2473#rd",
+    "readCount": 70692,
+    "collectCount": 780,
+    "shareCount": 7691,
+    "likeCount": 3220
+  },
+  {
+    "title": "从0到1带你速通WorkBuddy，这可能是最适合国内的Agent产品。",
+    "publishTime": "2026-06-11 09:58:00",
+    "workUuid": "bae82eca3e46aee529b14877424cc3e6",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683487&idx=1&sn=195063e8db911ac43256a80dcb556a2e#rd",
+    "readCount": 100001,
+    "collectCount": 4160,
+    "shareCount": 20629,
+    "likeCount": 3451
+  },
+  {
+    "title": "Claude Fable 5正式发布 - 王者归航。",
+    "publishTime": "2026-06-10 05:04:21",
+    "workUuid": "426f8511a9acf406fdf37d0399850301",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683485&idx=1&sn=310421ab80ddac4996667c546b6c3e02#rd",
+    "readCount": 100001,
+    "collectCount": 892,
+    "shareCount": 14734,
+    "likeCount": 4630
+  },
+  {
+    "title": "帮大家总结了一下凌晨的苹果WWDC26。",
+    "publishTime": "2026-06-09 06:08:00",
+    "workUuid": "0332938adacc26dfc065966be393fce4",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683172&idx=1&sn=50eb7a3404f9b6a4fcc19e0e9b3cae7b#rd",
+    "readCount": 100001,
+    "collectCount": 602,
+    "shareCount": 6401,
+    "likeCount": 2110
+  },
+  {
+    "title": "今年高考，我让12个顶级AI一起考了语文和数学，结果有点意外。",
+    "publishTime": "2026-06-08 11:08:08",
+    "workUuid": "b6eed716e028a4e72c02044d08db777a",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647683050&idx=1&sn=0d46fcb9df6f2a2842cddf7e33006426#rd",
+    "readCount": 100001,
+    "collectCount": 612,
+    "shareCount": 8712,
+    "likeCount": 3940
+  },
+  {
+    "title": "Anthropic万字长文：当AI开始构建自己，人类该何去何从？",
+    "publishTime": "2026-06-05 09:35:09",
+    "workUuid": "4f008e5adcb39bf1e9452b1ad9870bc2",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682995&idx=1&sn=dfb17dcc572d5d2f4e980859973f3992#rd",
+    "readCount": 93250,
+    "collectCount": 2627,
+    "shareCount": 12726,
+    "likeCount": 2756
+  },
+  {
+    "title": "分享Claude Code团队内部的5条工作原则，我觉得每一条都值得学习。",
+    "publishTime": "2026-06-03 10:02:00",
+    "workUuid": "218c304a1335eda3c0a2d1ff9652ac88",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682883&idx=1&sn=6c9cbd20d8f6e7dbabe4a36b53bad5fe#rd",
+    "readCount": 86560,
+    "collectCount": 2331,
+    "shareCount": 9891,
+    "likeCount": 2810
+  },
+  {
+    "title": "为了不花那120刀，我把电脑清理软件做成了开源skill。",
+    "publishTime": "2026-06-02 09:58:00",
+    "workUuid": "0198734ef50a930c6f287873f12862bf",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682858&idx=1&sn=0bdfd10a71c2746e17dab2157aab6369#rd",
+    "readCount": 54568,
+    "collectCount": 990,
+    "shareCount": 5359,
+    "likeCount": 2134
+  },
+  {
+    "title": "英伟达发布全新RTX Spark - 个人PC的新时代。",
+    "publishTime": "2026-06-01 15:04:26",
+    "workUuid": "bbe9bea359c1dfea683cc6ba7b5ddbaa",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682855&idx=1&sn=b7d0d623f3c26f5debdfba1c089b0e06#rd",
+    "readCount": 100001,
+    "collectCount": 523,
+    "shareCount": 8187,
+    "likeCount": 2179
+  },
+  {
+    "title": "实测Claude Opus 4.8，这可能是第一个不会偷懒的模型。",
+    "publishTime": "2026-05-29 06:06:00",
+    "workUuid": "abbd691bd682ce0f43959dbea9db98f7",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682817&idx=1&sn=d1f463490433d00ab331659a19b7cc1f#rd",
+    "readCount": 74300,
+    "collectCount": 354,
+    "shareCount": 3650,
+    "likeCount": 1409
+  },
+  {
+    "title": "飞书终于支持Markdown了，这个最弱的格式却赢下了整个AI时代。",
+    "publishTime": "2026-05-28 09:58:00",
+    "workUuid": "18749d6bbe20292aa61a84a28cb067d1",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682756&idx=1&sn=f8e09f9f2c7e5a3da57c11d4e6464281#rd",
+    "readCount": 82332,
+    "collectCount": 586,
+    "shareCount": 2888,
+    "likeCount": 1635
+  },
+  {
+    "title": "从0到1带你速通Codex，我整理的终极保姆教程来了。",
+    "publishTime": "2026-05-27 09:58:00",
+    "workUuid": "f7e8ed165d27b274a273f12e70f57bed",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682718&idx=1&sn=9e83ec07ed3e4ddf976e4d8673f80282#rd",
+    "readCount": 100001,
+    "collectCount": 6276,
+    "shareCount": 25051,
+    "likeCount": 5250
+  },
+  {
+    "title": "我折腾了好久的Skills团队共享，终于有产品替我做出来了。",
+    "publishTime": "2026-05-26 09:58:00",
+    "workUuid": "b87ae14fea19f5fe101e35a42159cf73",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682618&idx=1&sn=c1ad0582d8a18c9b233d20aa7bf7977b#rd",
+    "readCount": 88417,
+    "collectCount": 1005,
+    "shareCount": 5284,
+    "likeCount": 1455
+  },
+  {
+    "title": "AI时代的人才，我觉得最重要的是这6点特质。",
+    "publishTime": "2026-05-25 10:08:00",
+    "workUuid": "b694c64230c75c962367b0c5d65d56ca",
+    "workUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647682539&idx=1&sn=3832e9be5b0983bc8d769adec9936604#rd",
+    "readCount": 69345,
+    "collectCount": 1626,
+    "shareCount": 7754,
+    "likeCount": 3760
+  }
+]

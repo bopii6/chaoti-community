@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="小王AI课：30 天 Agent 实操，把 AI 养成你的数字员工，用场景化 Skill 把 AI 真正用进工作与生活。"
+    />
+    <meta name="theme-color" content="#f8e43f" />
+    <link rel="icon" href="assets/brand-mark.svg?v=20260826-mark-v2" type="image/svg+xml" />
+    <link rel="shortcut icon" href="assets/brand-mark.svg?v=20260826-mark-v2" type="image/svg+xml" />
+    <title>小王AI课｜AI 就要猛猛干 · 30 天 Agent 实操，把 AI 养成你的数字员工</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260826-delivery-levels-layout" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#today" aria-label="小王AI课首页">
+          <span>
+            <small>LEARN BY DOING · XIAO WANG AI</small>
+            <strong>小王AI课</strong>
+          </span>
+        </a>
+
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+          菜单
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="主导航">
+          <a class="active" href="#today">首页</a>
+          <a href="#deliverables">我的交付</a>
+          <a href="#course">30天课程</a>
+          <a href="#scenes">场景探索</a>
+          <a href="#ai-practice">AI实战榜</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="today" class="page-view home-page hero" data-page="today">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow inverse">STANCE · AI 就要猛猛干</p>
+            <h1>AI 就要<br /><span class="hero-slogan">猛猛干</span></h1>
+            <p class="hero-sub">30 天 Agent 实操 · 把 AI 养成你的数字员工</p>
+            <p class="hero-type" aria-label="我们要一起探索的内容：干AI数字员工、干专属的skill技能、干知识库……还有很多，等着咱们一起干">
+              <span class="type-prefix" aria-hidden="true">干</span>
+              <span class="type-text" data-type-phrases='["AI数字员工","专属的skill技能","知识库"]' data-type-finale="还有很多，等着咱们一起干"></span>
+              <span class="type-caret" aria-hidden="true"></span>
+            </p>
+          </div>
+
+          <div class="hero-board" aria-label="课程模块安排">
+            <figure class="hero-photo">
+              <img
+                src="assets/editorial-learning.jpg"
+                alt="桌面上的笔记本电脑、纸质笔记和学习工具"
+              />
+            </figure>
+            <div class="learning-ticket">
+              <span class="ticket-index">START HERE</span>
+              <p>课程安排</p>
+              <strong>两周基础，<br />两周项目</strong>
+            </div>
+          </div>
+        </div>
+
+        <section id="daily" class="daily-section section-anchor">
+        <div class="section-shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">DAILY PICKS</p>
+              <h2>每日精选</h2>
+            </div>
+          </div>
+
+          <div class="daily-feed-head">
+            <span>按日期倒序</span>
+            <span class="daily-feed-tools">
+              <span id="daily-result-count" aria-live="polite"></span>
+              <button id="daily-archive-link" class="daily-archive-link" type="button" hidden>全部精选 <span aria-hidden="true">→</span></button>
+            </span>
+          </div>
+          <div id="daily-grid" class="daily-feed"></div>
+        </div>
+        </section>
+      </section>
+
+      <section id="daily-detail-view" class="daily-detail-view" hidden>
+        <div class="daily-detail-inner">
+          <a id="daily-detail-back" class="daily-detail-back" href="#daily" aria-label="返回每日精选"><span aria-hidden="true">←</span> 返回每日精选</a>
+          <div class="daily-detail-meta">
+            <span id="daily-detail-category" class="daily-category"></span>
+            <time id="daily-detail-date" class="daily-detail-date"></time>
+          </div>
+          <h1 id="daily-detail-title" class="daily-detail-title"></h1>
+          <p id="daily-detail-lead" class="daily-detail-lead"></p>
+          <div id="daily-detail-content"></div>
+          <div class="daily-detail-footer">
+            <a class="daily-more" href="#daily"><span aria-hidden="true">←</span> 更多每日精选</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="daily-archive-view" class="daily-archive-view" hidden>
+        <div class="daily-archive-inner">
+          <a id="daily-archive-back" class="daily-detail-back" href="#daily" aria-label="返回每日精选"><span aria-hidden="true">←</span> 返回每日精选</a>
+          <p class="eyebrow">DAILY PICKS · 全部</p>
+          <h1 class="daily-archive-title">全部精选。</h1>
+          <p class="daily-archive-lead">从 8 月 15 日到今天，我们替你挑过的每一篇，按日期倒序。</p>
+          <div id="daily-archive-list" class="daily-feed"></div>
+        </div>
+      </section>
+
+      <section id="deliverables" class="page-view deliverables-page" data-page="deliverables">
+        <div class="page-hero deliverables-hero">
+          <div class="page-hero-inner">
+            <p class="eyebrow">PURCHASE GUIDE · 购买说明书</p>
+            <h1>买之前，<br />先把话说清楚。</h1>
+            <p class="page-hero-lead">时间怎么安排、怎么学习、需要什么工具、哪些事情不包含，都写在这里。看清楚，再决定要不要开始。</p>
+          </div>
+        </div>
+
+        <div class="section-shell deliverables-shell">
+          <section class="delivery-block delivery-block-audience" aria-labelledby="delivery-audience-title">
+            <div class="delivery-block-heading"><p class="eyebrow">01 · WHO THIS IS FOR</p><h2 id="delivery-audience-title">先看你适不适合</h2><p>这不是按“懂不懂 AI”划分，而是看你想把 AI 接到哪一类事情里。</p></div>
+            <div class="delivery-audience-list">
+              <article class="delivery-audience-item"><span class="delivery-audience-index">01</span><h3>老板、管理者</h3><div><strong>需要视野、系统性和实操</strong><p>不只是听员工讲 AI 用了什么，而是自己理解 Agent、Skill、知识库、自动化和 AI 工具，知道哪些能力值得带回团队，哪些事情必须亲自掌握。</p><span class="delivery-audience-note">看得懂方向，也能亲手跑通。</span></div></article>
+              <article class="delivery-audience-item"><span class="delivery-audience-index">02</span><h3>做内容的人</h3><div><strong>需要调研、知识库和内容生产线</strong><p>把需求和痛点调研做扎实，把外部素材沉淀成知识库，再把调研、选题、写作和发布串成一条可以反复使用的 AI 内容生产流程。</p><span class="delivery-audience-note">从找到问题，到持续交出内容。</span></div></article>
+              <article class="delivery-audience-item"><span class="delivery-audience-index">03</span><h3>有想法、有灵感的人</h3><div><strong>需要把灵感变成产品去上架</strong><p>把脑中的想法缩成一个能做的第一版，用 AI 做出网站或微信小程序原型，拿真实材料测试，再一步步走向发布和上架。</p><span class="delivery-audience-note">先把想法做出来，再决定要不要继续。</span></div></article>
+            </div>
+
+            <section id="ai-levels" class="delivery-levels" aria-labelledby="delivery-levels-title">
+              <div class="delivery-subsection-heading">
+                <p class="eyebrow">AI CAPABILITY LEVELS</p>
+                <h3 id="delivery-levels-title">AI 的 6 级体系</h3>
+                <p>不需要一开始就学到最高级。先找到你现在的位置，再决定下一步该补什么能力。</p>
+              </div>
+              <div class="ai-levels-gallery-shell">
+                <nav class="ai-level-stepper" aria-label="AI六级学习路径">
+                  <button class="ai-level-step is-active" type="button" data-level="0"><span>01</span><strong>对话型 AI</strong></button>
+                  <button class="ai-level-step" type="button" data-level="1"><span>02</span><strong>基础型 Agent</strong></button>
+                  <button class="ai-level-step" type="button" data-level="2"><span>03</span><strong>增强型 Agent</strong></button>
+                  <button class="ai-level-step" type="button" data-level="3"><span>04</span><strong>工作流型 Agent</strong></button>
+                  <button class="ai-level-step" type="button" data-level="4"><span>05</span><strong>自动化型 Agent</strong></button>
+                  <button class="ai-level-step" type="button" data-level="5"><span>06</span><strong>AI 工具开发</strong></button>
+                </nav>
+                <div class="ai-level-reader">
+                  <div class="ai-level-reader-media">
+                    <button id="ai-level-reader-image-button" class="ai-level-image-button" type="button" data-lightbox-src="assets/ai-levels/01-dialogue.png" data-lightbox-alt="AI能力等级01：对话型AI">
+                      <img id="ai-level-reader-image" src="assets/ai-levels/01-dialogue.png" alt="AI能力等级01：对话型AI" />
+                      <span class="ai-level-zoom" aria-hidden="true">放大查看 ↗</span>
+                    </button>
+                  </div>
+                  <div class="ai-level-reader-copy">
+                    <p id="ai-level-reader-kicker" class="eyebrow">LEVEL 01 · 起点</p>
+                    <h2 id="ai-level-reader-title">对话型 AI</h2>
+                    <p id="ai-level-reader-lead" class="ai-level-reader-lead">会问问题，解决单点任务。</p>
+                    <dl class="ai-level-reader-facts">
+                      <div><dt>这一等级是怎么回事</dt><dd id="ai-level-reader-about">你有一个随叫随到的 AI 顾问：你提问，它回答；你提供材料，它帮你处理。</dd></div>
+                      <div><dt>什么时候升级</dt><dd id="ai-level-reader-upgrade">开始需要读取多个文件、连续执行多个步骤，或者直接交付工作成果。</dd></div>
+                      <div><dt>什么时候不用升级</dt><dd id="ai-level-reader-enough">如果你的目标只是日常问答、写作和整理，停在这一层就够用。</dd></div>
+                    </dl>
+                    <div class="ai-level-reader-actions"><button id="ai-level-prev" class="button button-dark" type="button" disabled>← 上一级</button><button id="ai-level-next" class="button button-yellow" type="button">下一级 →</button></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <section class="delivery-block delivery-block-output" aria-labelledby="delivery-output-title">
+            <div class="delivery-block-heading"><p class="eyebrow">02 · VISIBLE OUTPUT</p><h2 id="delivery-output-title">30 天后，你将会带走什么？</h2><p>不是听过几个名词，而是完成一组可以继续使用的具体成果。</p></div>
+            <div class="delivery-output-grid">
+              <article class="delivery-output-item delivery-output-item--yellow"><span class="delivery-index">01</span><div><h3>扎实的 AI Agent 基础</h3><p>把对话、模型、上下文、文件、任务拆解、检查和边界一项项讲清楚，先知道 AI 到底在替你做什么。</p></div><strong>一套能自己判断、能继续往上学的 Agent 基础</strong></article>
+              <article class="delivery-output-item delivery-output-item--mint"><span class="delivery-index">02</span><div><h3>提示词该怎么写</h3><p>把自己的真实任务交代清楚，让 AI 知道目标、材料、步骤和验收标准。</p></div><strong>一套能反复改、反复用的提示词</strong></article>
+              <article class="delivery-output-item delivery-output-item--blue"><span class="delivery-index">03</span><div><h3>做一个专属的 Skill 技能</h3><p>把一套稳定的方法、规则和检查方式，做成自己的 AI 专业技能。</p></div><strong>一个可以调用的专属 Skill</strong></article>
+              <article class="delivery-output-item delivery-output-item--pink"><span class="delivery-index">04</span><div><h3>搭建一个自己的知识库</h3><p>把资料、经验、规则和偏好整理好，让 Agent 找得到、读得懂、用得上。</p></div><strong>一套能持续积累的个人知识库</strong></article>
+              <article class="delivery-output-item delivery-output-item--apricot"><span class="delivery-index">05</span><div><h3>做一个自己的 AI 工具</h3><p>从一个真实需求出发，把页面、内容、交互和上线串起来，做成别人看得见、自己能继续迭代的工具。</p></div><strong>一个能运行、能展示、可继续迭代的 AI 工具</strong></article>
+            </div>
+            <aside class="delivery-practice-promise" aria-labelledby="delivery-practice-promise-title">
+              <p class="eyebrow">MY PRACTICE PROMISE · AI实战榜</p>
+              <h3 id="delivery-practice-promise-title">每一项，都要先在真实场景里跑出来。</h3>
+              <p>我会持续把真正做成、能运行、在市面上不常见的 Skill、工作流和 AI 工具放到 AI实战榜。不是把新工具摆上来，而是从一个具体麻烦出发，做到有人能用、能复用、能继续变好，才算上榜。</p>
+              <a href="#ai-practice">看 AI实战榜 <span aria-hidden="true">→</span></a>
+            </aside>
+          </section>
+
+          <section class="delivery-block delivery-block-capability" aria-labelledby="delivery-capability-title">
+            <div class="delivery-block-heading"><p class="eyebrow">03 · CAPABILITY BUILT</p><h2 id="delivery-capability-title">不止于浅层，更深入于能力层</h2><p>成果会留下来，能力也会留下来。它们决定你下一次能不能自己完成。</p></div>
+            <div class="delivery-capability-list">
+              <article class="delivery-capability-item"><span class="delivery-index">A</span><div><h3>把模糊的想法，变成 AI 能执行的具体任务</h3><p>不再只说“帮我做一下”，而是知道怎样把目标和要求讲明白。</p></div></article>
+              <article class="delivery-capability-item"><span class="delivery-index">B</span><div><h3>把重复的工作，提炼成一套可复用的流程</h3><p>先完成一次设置，再把同类任务反复调用，逐步交给自动化执行。</p></div></article>
+              <article class="delivery-capability-item"><span class="delivery-index">C</span><div><h3>把零散的资料，整理成随时能找到、能调用的知识库</h3><p>不只是存文件，而是让经验真正变成工作时用得上的材料。</p></div></article>
+              <article class="delivery-capability-item"><span class="delivery-index">D</span><div><h3>把一个想法，真正做成一个能运行、能展示、能使用的网站</h3><p>从想法走到第一版，不让项目停在讨论、截图或收藏工具上。</p></div></article>
+            </div>
+          </section>
+
+          <section class="delivery-block delivery-manual" aria-labelledby="delivery-manual-title">
+            <div class="delivery-block-heading"><p class="eyebrow">04 · PURCHASE DETAILS</p><h2 id="delivery-manual-title">购买说明</h2><p>这不是报名门槛，是购买前该被讲清楚的事实。我们不靠社群打卡，也不把你的责任交给 AI。</p></div>
+            <div class="delivery-manual-list">
+              <article class="delivery-manual-item"><span>01</span><div><h3>每周固定直播 2 小时</h3><p>每周六上午 9:00–11:00。会有回放，但建议尽量现场来：课程讲解、集中答疑都发生在直播间。除此之外，请为完成清单留出实践时间。</p></div></article>
+              <article class="delivery-manual-item"><span>02</span><div><h3>直播 + 录播 + 文档</h3><p>你可以现场跟着做，也可以回看录播；课程会提供配套文档，方便在自己的电脑上反复操作和复盘。</p></div></article>
+              <article class="delivery-manual-item"><span>03</span><div><h3>用完成清单，不做逐份作业批改</h3><p>每个模块会有完成清单，让你知道这周要跑通哪些任务、留下哪些成果。重点不是交一份“作业”，而是把自己的真实问题做完。</p></div></article>
+              <article class="delivery-manual-item"><span>04</span><div><h3>答疑只在直播间集中进行</h3><p>问题集中在每周六上午的直播间解决。不设社群，也不提供一对一答疑，把时间留给课程、实践和公开可复用的问题。</p></div></article>
+              <article class="delivery-manual-item"><span>05</span><div><h3>工具预算：先预留 100 元</h3><p>WorkBuddy 等工具可以先从免费能力开始。需要使用 Codex 等付费工具时，建议预留约 100 元人民币的用量；不要求一开始订阅很多工具。</p></div></article>
+              <article class="delivery-manual-item"><span>06</span><div><h3>设备：普通新电脑就够用</h3><p>Windows 和 Mac 都可以。建议使用 2020 年后购买、能稳定联网的电脑；不需要为了上课购买高配设备。</p></div></article>
+              <article class="delivery-manual-item"><span>07</span><div><h3>整体不需要科学上网</h3><p>课程按无需科学上网的方式设计。个别工具能否使用仍以你的账号、地区、网络和工具当时的服务状态为准。</p></div></article>
+              <article class="delivery-manual-item"><span>08</span><div><h3>这些情况不建议报名</h3><p>如果你已经能独立用 AI、Agent、Skill 和自动化稳定完成工作，不再为 AI 发怵，这门入门到实践的课程可能不适合你。只想听、不愿意在电脑上练习，或期待老师替你完成业务的人，也不适合。</p></div></article>
+            </div>
+          </section>
+
+          <div class="delivery-closing"><span class="delivery-closing-mark" aria-hidden="true">→</span><p><strong>你买的不是一堆概念。</strong> 是带着真实问题来，带着下一次还能继续用的方法离开。</p></div>
+        </div>
+      </section>
+
+      <section id="course" class="page-view course-page" data-page="course">
+        <div class="page-hero">
+          <div class="page-hero-inner">
+            <p class="eyebrow">COURSE · 30天课程</p>
+            <h1>30天，<br />跟着官方节奏走。</h1>
+            <p class="page-hero-lead">四个模块，从 Agent 基础、能力扩展，到工作流案例与工具实战。30天之后，不再畏惧 AI。</p>
+            <a class="course-card-library-link" href="preview-cards.html" target="_blank" rel="noopener">
+              <span>
+                <small>课程重点速览 · 直播展示</small>
+                <strong>查看全部课程卡片</strong>
+              </span>
+              <b aria-hidden="true">↗</b>
+            </a>
+          </div>
+        </div>
+        <div class="section-shell">
+          <div class="course-workbench">
+            <div id="week-tabs" class="week-tabs" role="tablist" aria-label="课程模块"></div>
+            <div class="lesson-panel">
+              <div class="lesson-panel-head">
+                <div>
+                  <p id="week-kicker" class="eyebrow"></p>
+                  <h3 id="week-title"></h3>
+                  <div id="week-outcome" class="week-outcome-panel" aria-label="本模块结果"></div>
+                  <p id="week-description"></p>
+                </div>
+              </div>
+              <ol id="lesson-list" class="lesson-list"></ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="scenes" class="page-view scenes-page" data-page="scenes">
+        <div class="page-hero">
+          <div class="page-hero-inner">
+            <p class="eyebrow">SCENES → SKILLS · 场景探索</p>
+            <h1>从实际场景出发，<br />找到问题的真实解决方案。</h1>
+          </div>
+        </div>
+        <div class="section-shell">
+          <div class="section-heading scene-heading">
+            <label class="scene-search">
+              <span>搜索问题或方法</span>
+              <input id="scene-search" type="search" placeholder="例如：写周报、做选题、整理访谈" />
+            </label>
+          </div>
+
+          <div id="scene-grid" class="scene-grid"></div>
+          <div id="scene-empty" class="empty-state" hidden>
+            <strong>暂时没有匹配的方法</strong>
+            <p>换一个更短的关键词试试，例如“写作”或“复盘”。</p>
+            <button id="clear-search" class="button button-dark" type="button">清空搜索</button>
+          </div>
+          <div id="scene-skill-view" class="scene-skill-view" hidden>
+            <div class="scene-view-head">
+              <button id="scene-back" class="back-button" type="button"><span aria-hidden="true">←</span> 返回场景</button>
+              <p id="scene-view-label" class="eyebrow"></p>
+              <h3 id="scene-view-title"></h3>
+              <p id="scene-view-description"></p>
+            </div>
+            <div id="skill-grid" class="skill-grid"></div>
+            <div id="skill-detail" class="skill-detail" hidden></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ai-practice" class="page-view ai-practice-page" data-page="ai-practice">
+        <div class="page-hero ai-practice-hero">
+          <div class="page-hero-inner ai-practice-hero-inner">
+            <div>
+              <h1>销冠</h1>
+              <p class="page-hero-lead">一段录音，拆出可复制的成交动作。</p>
+            </div>
+            <aside class="ai-practice-hero-note" aria-label="当前专题">
+              <span>AI 实战榜 · 01</span>
+              <strong>录音 → Skill</strong>
+              <a href="#sales-workflow">看 6 步 <span aria-hidden="true">↓</span></a>
+            </aside>
+          </div>
+        </div>
+
+        <div class="section-shell ai-practice-shell">
+          <section class="practice-library" aria-labelledby="practice-library-title">
+            <div class="practice-library-head">
+              <div>
+                <p class="eyebrow">AI 实战榜 · 实战目录</p>
+                <h2 id="practice-library-title">很多事，高手觉得简单。</h2>
+              </div>
+              <p>每个主题都从真实工作里来：先找到高手反复做对的动作，再把它拆成 AI 能协助、普通人能练习的步骤。</p>
+            </div>
+            <div class="practice-library-meta"><span>01 已上线</span><span>09 待提取</span><span>按实践持续增加</span></div>
+            <div class="practice-library-grid">
+              <article class="practice-library-card is-current" data-practice-topic="sales-champion">
+                <div class="practice-library-card-top"><span>01</span><b>已上线</b></div>
+                <h3>销冠</h3>
+                <p>从客户原话里提取成交动作，找到下一步唯一推进。</p>
+                <button class="practice-library-card-action" type="button">查看实践 <span aria-hidden="true">→</span></button>
+              </article>
+              <article class="practice-library-card practice-library-card--mint" data-practice-topic="content-topic">
+                <div class="practice-library-card-top"><span>02</span><b>待提取</b></div>
+                <h3>爆款选题</h3>
+                <p>把“我觉得可以写”变成值得验证的选题判断。</p>
+                <button class="practice-library-card-action" type="button">加入提取队列 <span aria-hidden="true">+</span></button>
+              </article>
+              <article class="practice-library-card practice-library-card--blue" data-practice-topic="user-research">
+                <div class="practice-library-card-top"><span>03</span><b>待提取</b></div>
+                <h3>用户访谈</h3>
+                <p>从聊天记录里找出真正的痛点，而不是把观点当需求。</p>
+                <button class="practice-library-card-action" type="button">加入提取队列 <span aria-hidden="true">+</span></button>
+              </article>
+              <article class="practice-library-card practice-library-card--pink" data-practice-topic="meeting">
+                <div class="practice-library-card-top"><span>04</span><b>待提取</b></div>
+                <h3>会议推进</h3>
+                <p>让会议不止有纪要，还能留下责任人、截止时间和下一步。</p>
+                <button class="practice-library-card-action" type="button">加入提取队列 <span aria-hidden="true">+</span></button>
+              </article>
+              <article class="practice-library-card practice-library-card--apricot" data-practice-topic="video">
+                <div class="practice-library-card-top"><span>05</span><b>待提取</b></div>
+                <h3>短视频出片</h3>
+                <p>从一句创意到可发布成片，拆出真正省时间的制作链路。</p>
+                <button class="practice-library-card-action" type="button">加入提取队列 <span aria-hidden="true">+</span></button>
+              </article>
+              <article class="practice-library-card practice-library-card--lavender" data-practice-topic="customer-service">
+                <div class="practice-library-card-top"><span>06</span><b>待提取</b></div>
+                <h3>客服提效</h3>
+                <p>把重复问答交给 AI，把需要判断和安抚的部分留给人。</p>
+                <button class="practice-library-card-action" type="button">加入提取队列 <span aria-hidden="true">+</span></button>
+              </article>
+              <article class="practice-library-card practice-library-card--yellow" data-practice-topic="interview">
+                <div class="practice-library-card-top"><span>07</span><b>待提取</b></div>
+                <h3>招聘面试</h3>
+                <p>从简历和面试记录里提炼证据，避免凭感觉做判断。</p>
+                <button class="practice-library-card-action" type="button">加入提取队列 <span aria-hidden="true">+</span></button>
+              </article>
+              <article class="practice-library-card practice-library-card--mint" data-practice-topic="course">
+                <div class="practice-library-card-top"><span>08</span><b>待提取</b></div>
+                <h3>课程备课</h3>
+                <p>把资料、案例和学员问题变成能直接交付的一堂课。</p>
+                <button class="practice-library-card-action" type="button">加入提取队列 <span aria-hidden="true">+</span></button>
+              </article>
+              <article class="practice-library-card practice-library-card--blue" data-practice-topic="project-review">
+                <div class="practice-library-card-top"><span>09</span><b>待提取</b></div>
+                <h3>项目复盘</h3>
+                <p>不只总结发生了什么，还要找出下次能复用的动作。</p>
+                <button class="practice-library-card-action" type="button">加入提取队列 <span aria-hidden="true">+</span></button>
+              </article>
+              <article class="practice-library-card practice-library-card--pink" data-practice-topic="prototype">
+                <div class="practice-library-card-top"><span>10</span><b>待提取</b></div>
+                <h3>产品原型</h3>
+                <p>把脑中的模糊想法，变成可以讨论、测试和继续修改的第一版。</p>
+                <button class="practice-library-card-action" type="button">加入提取队列 <span aria-hidden="true">+</span></button>
+              </article>
+            </div>
+            <p id="practice-library-feedback" class="practice-library-feedback" aria-live="polite"></p>
+          </section>
+
+          <section id="practice-intro" class="practice-intro" aria-labelledby="practice-intro-title">
+            <div>
+              <p class="eyebrow">TOPIC 01 · 销冠</p>
+              <h2 id="practice-intro-title">提取的是动作，不是人设。</h2>
+            </div>
+            <p>不是背一套“销冠话术”，而是把真实成交现场留下来。让 AI 从录音里识别销冠为什么能让客户下单、买单、交付、停留，再把这些原因沉淀成团队每天可以调用的能力。</p>
+          </section>
+
+          <section id="sales-workflow" class="sales-workflow" aria-labelledby="sales-workflow-title">
+            <div class="practice-section-heading sales-workflow-heading">
+              <p class="eyebrow">FROM RECORDING TO TEAM SKILL</p>
+              <h2 id="sales-workflow-title">一段录音，变成一套销冠能力。</h2>
+              <p>先留下真实现场，再让 AI 识别差异，最后回到员工的下一次沟通。</p>
+            </div>
+            <ol class="sales-workflow-list">
+              <li class="sales-workflow-step sales-workflow-step--yellow"><div class="sales-workflow-step-index"><span>01</span><b>采集</b></div><div class="sales-workflow-step-body"><h3>准备一段真实的销冠录音</h3><p>最简单：直接用手机录音。想更稳定，可以测试几百元的录音豆或录音卡，例如飞书、钉钉等设备，重点比较佩戴、收音、续航和导出是否顺手。</p><div class="sales-workflow-step-box"><strong>录什么</strong><span>打电话、接待客户、会议室沟通、售后回访，都可以。先选一段有结果的真实场景；录音前确认参与者知情同意，敏感信息先做脱敏。</span></div></div></li>
+              <li class="sales-workflow-step sales-workflow-step--mint"><div class="sales-workflow-step-index"><span>02</span><b>转写</b></div><div class="sales-workflow-step-body"><h3>把录音转成可分析的文字</h3><p>把原始录音交给 Codex、WorkBuddy 或豆包，让它先完成语音转文字。不要急着总结，先保留完整原话、说话人、时间顺序和停顿。</p><div class="sales-workflow-step-box"><strong>交付检查</strong><span>人名、产品名、数字和关键承诺要回听核对；听不清的地方标成“待确认”，不要让 AI 自己猜。</span></div></div></li>
+              <li class="sales-workflow-step sales-workflow-step--blue"><div class="sales-workflow-step-index"><span>03</span><b>识别</b></div><div class="sales-workflow-step-body"><h3>让 AI 找出“为什么客户愿意继续”</h3><p>输入专门的 Prompt，让 AI 同时看客户和销冠的动作：客户为什么下单、买单、愿意配合交付、愿意继续留下；销冠在哪些时刻改变了客户的判断。</p><div class="sales-workflow-step-box"><strong>要求 AI 输出</strong><span>客户原话、销冠原话、关键动作、客户心理变化、成交理由、可复用的做法，以及不确定的判断。</span></div></div></li>
+              <li class="sales-workflow-step sales-workflow-step--pink"><div class="sales-workflow-step-index"><span>04</span><b>沉淀</b></div><div class="sales-workflow-step-body"><h3>把理由放进“成交目录”</h3><p>识别出来的理由不要只留在一次聊天里。可以用 Obsidian、艾玛知识库，或你们现有的日常成交记录，单独创建一个“成交目录”。</p><div class="sales-workflow-step-box"><strong>建议目录</strong><span>客户场景 / 成交理由 / 销冠原话 / 有效动作 / 适用边界 / 失败案例 / 来源录音。</span></div></div></li>
+              <li class="sales-workflow-step sales-workflow-step--apricot"><div class="sales-workflow-step-index"><span>05</span><b>封装</b></div><div class="sales-workflow-step-body"><h3>把成交目录做成团队 Skill</h3><p>把已经验证过的方法、判断规则、提问方式和检查清单封装成一个 Skill，分发给其他员工。Skill 不是“销冠人设”，而是一套能被调用的工作方法。</p><div class="sales-workflow-step-box"><strong>Skill 至少包含</strong><span>什么时候使用、需要什么录音或文字、分析步骤、输出格式、不能编造什么、完成前怎么自检。</span></div></div></li>
+              <li class="sales-workflow-step sales-workflow-step--lavender"><div class="sales-workflow-step-index"><span>06</span><b>对比</b></div><div class="sales-workflow-step-body"><h3>用普通员工录音做差异训练</h3><p>其他员工也按同样方式录音、转写、交给 AI。让 AI 对比销冠录音与普通员工录音：差异发生在说话方式、提问顺序、知识覆盖、判断时机，还是跟进动作。</p><div class="sales-workflow-step-box"><strong>最后要落到行动</strong><span>每次只挑 1—2 个差异改进，下次录音再验证。把“知道销冠厉害”变成“我下一次具体改哪里”。</span></div></div></li>
+            </ol>
+            <div class="sales-workflow-note"><strong>这套方法真正训练的不是模仿。</strong><span>是让 AI 识别差异、找到原因，再帮助更多员工把能力练出来。</span></div>
+          </section>
+
+          <section class="practice-map" aria-labelledby="practice-map-title">
+            <div class="practice-section-heading">
+              <p class="eyebrow">THE WINNER'S LOOP</p>
+              <h2 id="practice-map-title">销冠的 5 个动作</h2>
+              <p>一条可复盘、可训练、可交给 AI 辅助的成交回路。</p>
+            </div>
+            <div class="practice-action-list">
+              <article class="practice-action practice-action--yellow">
+                <span class="practice-action-no">01</span>
+                <div><h3>先问结果，不先讲产品</h3><p>先确认客户想改变什么、什么时候要结果，再决定讲哪一个功能。</p><strong>把“介绍”换成“诊断”。</strong></div>
+              </article>
+              <article class="practice-action practice-action--mint">
+                <span class="practice-action-no">02</span>
+                <div><h3>把客户原话变成证据</h3><p>记下客户真正说过的词，复述并对齐，避免用自己的理解替客户下结论。</p><strong>原话，是最短的信任。</strong></div>
+              </article>
+              <article class="practice-action practice-action--blue">
+                <span class="practice-action-no">03</span>
+                <div><h3>每次只推进一个下一步</h3><p>不追求一次成交，先约下一次具体动作：补资料、试用、核预算或拉齐决策人。</p><strong>推进，不是催促。</strong></div>
+              </article>
+              <article class="practice-action practice-action--pink">
+                <span class="practice-action-no">04</span>
+                <div><h3>异议先拆条件，再给答案</h3><p>“贵”“再看看”“没时间”背后可能是预算、风险、优先级或信任没有被确认。</p><strong>先问清楚，才有资格回应。</strong></div>
+              </article>
+              <article class="practice-action practice-action--apricot">
+                <span class="practice-action-no">05</span>
+                <div><h3>成交后继续经营复购</h3><p>交付后的使用反馈、结果变化和新问题，都是下一次成交的起点。</p><strong>成交不是终点，是下一轮输入。</strong></div>
+              </article>
+            </div>
+          </section>
+
+          <section id="ai-practice-workbench" class="practice-workbench" aria-labelledby="practice-workbench-title">
+            <div class="practice-workbench-head">
+              <div>
+                <p class="eyebrow">PRACTICE · 现在就跑一遍</p>
+                <h2 id="practice-workbench-title">把一段销冠转写，提取成可复用动作。</h2>
+              </div>
+                <p>把第 02 步得到的录音转写贴进来。AI 负责找出成交理由和关键动作，你负责判断哪些值得沉淀进团队知识库。</p>
+            </div>
+            <div class="practice-workbench-grid">
+              <div class="practice-input-panel">
+                <label for="practice-input">销冠录音转写 / 沟通纪要</label>
+                <textarea id="practice-input" rows="9">客户：我们现在主要靠销售个人经验，最近新人上手很慢。
+我：那你们最希望先改善的是成交速度，还是新人能独立跟进？
+客户：先让新人知道下一步怎么做，别每次都来问主管。</textarea>
+                <button id="practice-extract" class="button button-dark" type="button">提取销冠动作 <span aria-hidden="true">→</span></button>
+                <p class="practice-input-hint">支持一段就够，先从最真实、最有结果的一次沟通开始；听不清的内容先标记，不要让 AI 猜。</p>
+              </div>
+              <div class="practice-output-panel" aria-live="polite">
+                <div class="practice-output-topline"><span>AI 提取结果</span><span id="practice-output-status">已准备</span></div>
+                <div id="practice-output" class="practice-output"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="practice-prompt-band" aria-labelledby="practice-prompt-title">
+            <div>
+              <p class="eyebrow">TAKE IT WITH YOU</p>
+              <h2 id="practice-prompt-title">给 AI 的销冠提取指令</h2>
+            </div>
+            <div class="practice-prompt-code"><code>你是销售复盘教练。请阅读这段销冠录音转写，识别他为什么能让客户下单、买单、顺利交付并愿意继续停留。请输出：1. 客户原话与真实目标；2. 销冠在每个关键时刻做了什么；3. 客户判断发生了什么变化；4. 可复用的成交理由与适用边界；5. 可以沉淀到“成交目录”的知识条目。不要编造录音里没有出现的事实，听不清或无法判断的地方标记为“待确认”。</code><button id="practice-copy" type="button">复制指令</button></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="lesson" class="page-view lesson-page" data-page="lesson">
+        <div class="page-hero lesson-hero">
+          <div class="page-hero-inner">
+            <a id="lesson-back" class="back-button lesson-back" href="#course"><span aria-hidden="true">←</span> 返回课程</a>
+            <p id="lesson-kicker" class="eyebrow"></p>
+            <h1 id="lesson-title" class="lesson-title"></h1>
+            <p id="lesson-lead" class="page-hero-lead"></p>
+            <div id="lesson-meta" class="lesson-meta" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="section-shell">
+          <article id="lesson-document" class="lesson-document"></article>
+          <nav id="lesson-pager" class="lesson-pager" aria-label="课程上下节导航"></nav>
+          <div class="lesson-doc-footer">
+            <a class="daily-more" href="#course"><span aria-hidden="true">←</span> 返回课程</a>
+          </div>
+        </div>
+      </section>
+
+      <dialog id="ai-level-lightbox" class="ai-level-lightbox" aria-label="AI能力等级大图">
+        <form method="dialog">
+          <button class="ai-level-lightbox-close" type="submit" aria-label="关闭大图">关闭 <span aria-hidden="true">×</span></button>
+        </form>
+        <img id="ai-level-lightbox-image" src="" alt="" />
+      </dialog>
+
+      <section class="closing-section home-only-section">
+        <div class="section-shell closing-inner">
+          <p class="eyebrow inverse">START SMALL · 从一个动作开始</p>
+          <h2>今天不用学会 AI。<br />先让它替你完成一件小事。</h2>
+          <a class="button button-yellow" href="#course">开始心态篇 <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <strong>小王AI课</strong>
+          <p>学一点，做一遍，留下自己的方法。</p>
+        </div>
+        <nav aria-label="页脚导航">
+          <a href="#deliverables">我的交付</a>
+          <a href="#course">30天课程</a>
+          <a href="#scenes">场景探索</a>
+          <a href="#ai-practice">AI实战榜</a>
+        </nav>
+        <small>LEARN BY DOING · 2026</small>
+      </div>
+    </footer>
+
+    <script src="app.js?v=20260826-delivery-levels"></script>
+  </body>
+</html>

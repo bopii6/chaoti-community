@@ -1,0 +1,422 @@
+[
+ {
+  "uuid": "5395139559ed6f35e576b883a624102a",
+  "date": "2026-08-21",
+  "title": "都Agent时代了，我还是想分享给你这12个我最常",
+  "status": "OK",
+  "contentLen": 10940
+ },
+ {
+  "uuid": "01e35de215da1cb0c2fad2bd520fb04e",
+  "date": "2026-08-20",
+  "title": "创业2年半后，想跟你分享关于AI组织的这7点心得。",
+  "status": "OK",
+  "contentLen": 8639
+ },
+ {
+  "uuid": "93c6032c65e07aa625bbba2e93824d53",
+  "date": "2026-08-19",
+  "title": "聊聊唐杰老师对GLM-5.3和Scaling La",
+  "status": "OK",
+  "contentLen": 1055
+ },
+ {
+  "uuid": "02bfea9bc6e61d688d5954aecfdc5435",
+  "date": "2026-08-18",
+  "title": "一个极度实用的深度思考Prompt，帮你挖出最本质",
+  "status": "OK",
+  "contentLen": 3512
+ },
+ {
+  "uuid": "91e2bb0de8d8c0f8824060afff1f6e15",
+  "date": "2026-08-17",
+  "title": "说一个反常识的真相，Agent如今在真实工作场景的",
+  "status": "OK",
+  "contentLen": 4557
+ },
+ {
+  "uuid": "2d9d3cba788a9a158fcc89bdb42a009c",
+  "date": "2026-08-14",
+  "title": "从0到1带你速通DeepSeek Harness。",
+  "status": "OK",
+  "contentLen": 5663
+ },
+ {
+  "uuid": "05838578424b8580563ce742b80bf620",
+  "date": "2026-08-13",
+  "title": "WorkBuddy上线远程控制，国内也有了最丝滑的",
+  "status": "OK",
+  "contentLen": 2809
+ },
+ {
+  "uuid": "8b51b3257585ca89e7d1cf41a189d044",
+  "date": "2026-08-12",
+  "title": "从0开始，12步学会用好AI。",
+  "status": "OK",
+  "contentLen": 1069
+ },
+ {
+  "uuid": "20c72fca4d3081952748a12617f4fa93",
+  "date": "2026-08-10",
+  "title": "我花了54个小时，做了一个可能更公平的AI大模型排",
+  "status": "OK",
+  "contentLen": 4620
+ },
+ {
+  "uuid": "467616a943bd0a33fab543c4f13001f7",
+  "date": "2026-08-07",
+  "title": "一周以后，我想我终于可以来聊聊Seedance 2",
+  "status": "OK",
+  "contentLen": 7084
+ },
+ {
+  "uuid": "5c546ecaabcbf9bef3f8f0665704e3f0",
+  "date": "2026-08-06",
+  "title": "OpenAI开源的这个安全插件，是每个Vibe C",
+  "status": "OK",
+  "contentLen": 4802
+ },
+ {
+  "uuid": "7ec56960db9f4bea45732415d5bc4995",
+  "date": "2026-08-05",
+  "title": "开源「活人感写作.skill」，只为帮你写出没有A",
+  "status": "OK",
+  "contentLen": 4290
+ },
+ {
+  "uuid": "5bc2c63f43c5428cf900be4faf4f546a",
+  "date": "2026-08-04",
+  "title": "从零开始，教你用Codex搓出属于你自己的第一个硬",
+  "status": "OK",
+  "contentLen": 5612
+ },
+ {
+  "uuid": "8fc6078592bc1e5cbe82ce5f8dde6a2a",
+  "date": "2026-08-03",
+  "title": "体验了两周Robot Phone，这是我第一次觉得",
+  "status": "OK",
+  "contentLen": 5400
+ },
+ {
+  "uuid": "c774547c591557f6f66b101be353fc8e",
+  "date": "2026-07-31",
+  "title": "MiniMax H3发布，还要开源，AI视频终于有",
+  "status": "OK",
+  "contentLen": 3780
+ },
+ {
+  "uuid": "db6bf1aa945c20a9f5cb4a92c83c5341",
+  "date": "2026-07-30",
+  "title": "WorkBuddy的这个新功能，我觉得就是Agen",
+  "status": "OK",
+  "contentLen": 3970
+ },
+ {
+  "uuid": "3423c11186bbe260b0013a467d268ba1",
+  "date": "2026-07-29",
+  "title": "今天，我的Claude也被封号了。",
+  "status": "OK",
+  "contentLen": 3179
+ },
+ {
+  "uuid": "7b3d0e3168d2bccabca8849e592f824b",
+  "date": "2026-07-28",
+  "title": "黄仁勋、Kimi K3，与一场即将到来的开源战争。",
+  "status": "OK",
+  "contentLen": 4385
+ },
+ {
+  "uuid": "60d2d6b77c6a6d860d8afa9ab847cfff",
+  "date": "2026-07-27",
+  "title": "浪费20亿Token之后，我开源了一个帮自己定义目",
+  "status": "OK",
+  "contentLen": 4459
+ },
+ {
+  "uuid": "9406b8ba7de671f56df92e683283966a",
+  "date": "2026-07-25",
+  "title": "Claude Opus 5深夜发布，以一半价格逼近",
+  "status": "OK",
+  "contentLen": 4937
+ },
+ {
+  "uuid": "63bd6b53d3a9882a153c8ef2f5128dcd",
+  "date": "2026-07-23",
+  "title": "一文带你看懂刚刚发布的“北京智能体新政”，这是跟每",
+  "status": "OK",
+  "contentLen": 9325
+ },
+ {
+  "uuid": "57af97a89d138d94871bbff365ca6d0c",
+  "date": "2026-07-22",
+  "title": "腾讯悄悄上线了他们第一个设计Agent - Mio",
+  "status": "OK",
+  "contentLen": 5303
+ },
+ {
+  "uuid": "1f0407a64cf051a3620fc97e61caa73b",
+  "date": "2026-07-21",
+  "title": "AI说不出的随机数，成了鉴别套壳大模型最好的照妖镜",
+  "status": "OK",
+  "contentLen": 5000
+ },
+ {
+  "uuid": "45292f3134a76e7c0dfe26ed0bc0f85d",
+  "date": "2026-07-20",
+  "title": "不会代码也能做产品，这是一份从0开始的Vibe C",
+  "status": "OK",
+  "contentLen": 6344
+ },
+ {
+  "uuid": "54102e8d8b0fa1212379c91091903b69",
+  "date": "2026-07-17",
+  "title": "Kimi正式发布2.8万亿大模型K3，这是属于我们",
+  "status": "OK",
+  "contentLen": 8125
+ },
+ {
+  "uuid": "dfc0a060cea592b2138469f3cd6508c6",
+  "date": "2026-07-16",
+  "title": "分享一下我现在随时随地让Agent干活的远程操控方",
+  "status": "OK",
+  "contentLen": 3609
+ },
+ {
+  "uuid": "e2419ef85f149571ff72816f9db19236",
+  "date": "2026-07-15",
+  "title": "平均每天Vibe Coding 16小时后，这是我",
+  "status": "OK",
+  "contentLen": 4462
+ },
+ {
+  "uuid": "5946648bd3c3274dbc763d44beb4e8f1",
+  "date": "2026-07-14",
+  "title": "聊聊今年涌进Anthropic的N个巨佬，他们押注",
+  "status": "OK",
+  "contentLen": 5803
+ },
+ {
+  "uuid": "adf7b766ead762447d7e116e6cbd01cd",
+  "date": "2026-07-13",
+  "title": "我只让Grok回复一个单词，它就把我整个代码库都偷",
+  "status": "OK",
+  "contentLen": 4158
+ },
+ {
+  "uuid": "f2c8d22bf988b5735945252bca40d087",
+  "date": "2026-07-10",
+  "title": "GPT-5.6深夜上线，ChatGPT和Codex",
+  "status": "OK",
+  "contentLen": 8173
+ },
+ {
+  "uuid": "cfefe1bab82e6aa955b9de523561bfcc",
+  "date": "2026-07-08",
+  "title": "我把斯坦福最火的一门课，做成了Prompt来帮我设",
+  "status": "OK",
+  "contentLen": 8986
+ },
+ {
+  "uuid": "91c98b122f992b5472b73e93279ee94c",
+  "date": "2026-07-07",
+  "title": "聊聊Anthropic这篇最新研究，我觉得可能是A",
+  "status": "OK",
+  "contentLen": 6192
+ },
+ {
+  "uuid": "b4dbb9f2209bea0d7d4e342d190f3bb2",
+  "date": "2026-07-06",
+  "title": "我的网站被攻击了48个小时，Claude Fabl",
+  "status": "OK",
+  "contentLen": 5968
+ },
+ {
+  "uuid": "107b01b608ccb67458cc6fda6bf21dc6",
+  "date": "2026-07-03",
+  "title": "记一个我被Claude Fable 5震撼的瞬间。",
+  "status": "OK",
+  "contentLen": 4024
+ },
+ {
+  "uuid": "a25d41f52fa8eb156a9f0a1af60446ee",
+  "date": "2026-07-01",
+  "title": "Anthropic偷偷在Claude Code中植",
+  "status": "OK",
+  "contentLen": 3771
+ },
+ {
+  "uuid": "95d6bcc0ec844edd0505d6d2b3ff51b1",
+  "date": "2026-06-30",
+  "title": "给机器人打工了一天，我们体验上了AI时代最魔幻的工",
+  "status": "OK",
+  "contentLen": 4815
+ },
+ {
+  "uuid": "08d8b14c506cbce32eb331bea72e9bfd",
+  "date": "2026-06-29",
+  "title": "分享2个Vibe Coding必备的超实用Prom",
+  "status": "OK",
+  "contentLen": 4571
+ },
+ {
+  "uuid": "1f3294c89876e70d4c6ddf4f4bbe9a6e",
+  "date": "2026-06-26",
+  "title": "想玩Loop Engineering，可以先从这6",
+  "status": "OK",
+  "contentLen": 4548
+ },
+ {
+  "uuid": "5a3e6c5aad881bea93dc2dcb5c3f5be8",
+  "date": "2026-06-25",
+  "title": "盘点16个把自己蒸馏成Skills的国民级App。",
+  "status": "OK",
+  "contentLen": 4746
+ },
+ {
+  "uuid": "4d911d9fd2d01835e5739b313d409f6f",
+  "date": "2026-06-24",
+  "title": "体验完微信Agent以后，我觉得这就是微信有史以来",
+  "status": "OK",
+  "contentLen": 6637
+ },
+ {
+  "uuid": "8b781dd61ced71395a89b427b6e88bb5",
+  "date": "2026-06-23",
+  "title": "一文总结2026火山引擎FORCE大会 - 向Co",
+  "status": "OK",
+  "contentLen": 6037
+ },
+ {
+  "uuid": "5473123016193649ab3fea510c3b7602",
+  "date": "2026-06-22",
+  "title": "AI用得好不好，跟你会不会管人，我觉得越来越是同一",
+  "status": "OK",
+  "contentLen": 5837
+ },
+ {
+  "uuid": "56c6e06f4f447f9cf66b5aaeccfa9184",
+  "date": "2026-06-18",
+  "title": "分享10本我觉得AI时代应该必读的好书。",
+  "status": "OK",
+  "contentLen": 10016
+ },
+ {
+  "uuid": "3bcc69c5680dc568c340eaa3cdc3d885",
+  "date": "2026-06-16",
+  "title": "2026年的毕业生们，正在花钱向AI证明自己是人类",
+  "status": "OK",
+  "contentLen": 6230
+ },
+ {
+  "uuid": "309637e45bea8705bb54d9cab5fb8852",
+  "date": "2026-06-15",
+  "title": "Prompt该退环境了，未来属于Loop Engi",
+  "status": "OK",
+  "contentLen": 7313
+ },
+ {
+  "uuid": "d4803a8702a27c7a438ce246bda6d402",
+  "date": "2026-06-13",
+  "title": "实测GLM-5.2，国产Coding模型的又一座新",
+  "status": "OK",
+  "contentLen": 4704
+ },
+ {
+  "uuid": "5b6f55d26e4b168485a62dae13904f84",
+  "date": "2026-06-12",
+  "title": "让5个AI文明自己活15天，Claude建成了乌托",
+  "status": "OK",
+  "contentLen": 5940
+ },
+ {
+  "uuid": "bae82eca3e46aee529b14877424cc3e6",
+  "date": "2026-06-11",
+  "title": "从0到1带你速通WorkBuddy，这可能是最适合",
+  "status": "OK",
+  "contentLen": 8095
+ },
+ {
+  "uuid": "426f8511a9acf406fdf37d0399850301",
+  "date": "2026-06-10",
+  "title": "Claude Fable 5正式发布 - 王者归航",
+  "status": "OK",
+  "contentLen": 5823
+ },
+ {
+  "uuid": "0332938adacc26dfc065966be393fce4",
+  "date": "2026-06-09",
+  "title": "帮大家总结了一下凌晨的苹果WWDC26。",
+  "status": "OK",
+  "contentLen": 9667
+ },
+ {
+  "uuid": "b6eed716e028a4e72c02044d08db777a",
+  "date": "2026-06-08",
+  "title": "今年高考，我让12个顶级AI一起考了语文和数学，结",
+  "status": "OK",
+  "contentLen": 4494
+ },
+ {
+  "uuid": "4f008e5adcb39bf1e9452b1ad9870bc2",
+  "date": "2026-06-05",
+  "title": "Anthropic万字长文：当AI开始构建自己，人",
+  "status": "OK",
+  "contentLen": 11334
+ },
+ {
+  "uuid": "218c304a1335eda3c0a2d1ff9652ac88",
+  "date": "2026-06-03",
+  "title": "分享Claude Code团队内部的5条工作原则，",
+  "status": "OK",
+  "contentLen": 6538
+ },
+ {
+  "uuid": "0198734ef50a930c6f287873f12862bf",
+  "date": "2026-06-02",
+  "title": "为了不花那120刀，我把电脑清理软件做成了开源sk",
+  "status": "OK",
+  "contentLen": 4642
+ },
+ {
+  "uuid": "bbe9bea359c1dfea683cc6ba7b5ddbaa",
+  "date": "2026-06-01",
+  "title": "英伟达发布全新RTX Spark - 个人PC的新",
+  "status": "OK",
+  "contentLen": 4802
+ },
+ {
+  "uuid": "abbd691bd682ce0f43959dbea9db98f7",
+  "date": "2026-05-29",
+  "title": "实测Claude Opus 4.8，这可能是第一个",
+  "status": "OK",
+  "contentLen": 5612
+ },
+ {
+  "uuid": "18749d6bbe20292aa61a84a28cb067d1",
+  "date": "2026-05-28",
+  "title": "飞书终于支持Markdown了，这个最弱的格式却赢",
+  "status": "OK",
+  "contentLen": 5468
+ },
+ {
+  "uuid": "f7e8ed165d27b274a273f12e70f57bed",
+  "date": "2026-05-27",
+  "title": "从0到1带你速通Codex，我整理的终极保姆教程来",
+  "status": "OK",
+  "contentLen": 8622
+ },
+ {
+  "uuid": "b87ae14fea19f5fe101e35a42159cf73",
+  "date": "2026-05-26",
+  "title": "我折腾了好久的Skills团队共享，终于有产品替我",
+  "status": "OK",
+  "contentLen": 2874
+ },
+ {
+  "uuid": "b694c64230c75c962367b0c5d65d56ca",
+  "date": "2026-05-25",
+  "title": "AI时代的人才，我觉得最重要的是这6点特质。",
+  "status": "OK",
+  "contentLen": 7086
+ }
+]

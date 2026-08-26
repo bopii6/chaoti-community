@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#f8f2e8"/>
+  <rect x="36" y="36" width="1528" height="928" fill="#fffdf8" stroke="#11110f" stroke-width="4"/>
+  <text x="88" y="112" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#f0523e">浏览器自动化进阶 · 知识点卡片 14</text>
+  <text x="88" y="184" font-family="Arial, Microsoft YaHei, sans-serif" font-size="48" font-weight="900" fill="#11110f">让收藏里的好东西，</text>
+  <text x="88" y="244" font-family="Arial, Microsoft YaHei, sans-serif" font-size="48" font-weight="900" fill="#f0523e">变成下一次创作素材</text>
+  <text x="88" y="294" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#5c5a54">浏览器自动化的价值，不是让 Agent 到处乱搜，而是处理你已经筛选过的收藏。</text>
+
+  <rect x="88" y="354" width="680" height="176" fill="#fff4a8" stroke="#11110f" stroke-width="3"/>
+  <rect x="88" y="354" width="12" height="176" fill="#f0523e"/>
+  <text x="128" y="398" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#f0523e">01 · 先限定范围</text>
+  <text x="128" y="446" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="900" fill="#11110f">打开你的收藏，而不是全网搜索</text>
+  <text x="128" y="486" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#5c5a54">Twitter 书签、抖音收藏、小红书收藏，都是你筛选过的宝贝。</text>
+
+  <rect x="832" y="354" width="680" height="176" fill="#dff0e8" stroke="#11110f" stroke-width="3"/>
+  <rect x="832" y="354" width="12" height="176" fill="#43a56f"/>
+  <text x="872" y="398" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#43a56f">02 · 让 Agent 长出手</text>
+  <text x="872" y="446" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="900" fill="#11110f">打开网页，定位收藏内容</text>
+  <text x="872" y="486" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#5c5a54">你告诉它去哪里、找什么、按什么标准筛选。</text>
+
+  <rect x="88" y="572" width="680" height="176" fill="#f8ded7" stroke="#11110f" stroke-width="3"/>
+  <rect x="88" y="572" width="12" height="176" fill="#f0523e"/>
+  <text x="128" y="616" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#f0523e">03 · 从收藏里提炼价值</text>
+  <text x="128" y="664" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="900" fill="#11110f">分析观点、主题和可利用之处</text>
+  <text x="128" y="704" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#5c5a54">不是搬运原文，而是提炼成你能继续使用的素材。</text>
+
+  <rect x="832" y="572" width="680" height="176" fill="#e9e6dd" stroke="#11110f" stroke-width="3"/>
+  <rect x="832" y="572" width="12" height="176" fill="#11110f"/>
+  <text x="872" y="616" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#11110f">04 · 沉淀，才有二次利用</text>
+  <text x="872" y="664" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="900" fill="#11110f">写进 Obsidian，变成你的知识资产</text>
+  <text x="872" y="704" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#5c5a54">下一次做选题、写文章时，Agent 可以继续调用。</text>
+
+  <line x1="88" y1="816" x2="1512" y2="816" stroke="#11110f" stroke-width="3"/>
+  <text x="88" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#f0523e">这节课只记住一件事</text>
+  <text x="88" y="914" font-family="Arial, Microsoft YaHei, sans-serif" font-size="31" font-weight="900" fill="#11110f">收藏 → 筛选 → 分析 → 写入知识库 → 下一次创作继续调用</text>
+  <g transform="translate(1394 76) scale(.22)" opacity=".92">
+    <image href="preview-qilin-browser-flow-art.png" x="0" y="0" width="1536" height="1024" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#f8f2e8"/>
+  <rect x="36" y="36" width="1528" height="928" fill="#fffdf8" stroke="#11110f" stroke-width="4"/>
+  <text x="88" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#f0523e">AI 自媒体内容数字员工</text>
+  <text x="88" y="188" font-family="Arial, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#11110f">一条内容生产流程，跑通它</text>
+  <text x="88" y="232" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" fill="#5c5a54">从你的收藏素材开始，到公众号初稿结束。每个能力各司其职，最后由你确认。</text>
+
+  <rect x="88" y="286" width="444" height="190" fill="#fff4a8" stroke="#11110f" stroke-width="3"/>
+  <rect x="88" y="286" width="12" height="190" fill="#f4d900"/>
+  <text x="122" y="330" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#f0523e">01 · 员工是谁</text>
+  <text x="122" y="374" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="900" fill="#11110f">内容素材研究员</text>
+  <text x="122" y="414" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#11110f">收集、分析、沉淀、生成</text>
+  <text x="122" y="446" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#5c5a54">不做万能助手，只负责内容生产</text>
+
+  <rect x="578" y="286" width="444" height="190" fill="#dff0e8" stroke="#11110f" stroke-width="3"/>
+  <rect x="578" y="286" width="12" height="190" fill="#43a56f"/>
+  <text x="612" y="330" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#f0523e">02 · 它需要什么</text>
+  <text x="612" y="374" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#11110f">收藏 · Skill · 知识库</text>
+  <text x="612" y="414" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#11110f">浏览器自动化 + 你的判断</text>
+  <text x="612" y="446" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#5c5a54">先限定范围，再让它开始工作</text>
+
+  <rect x="1068" y="286" width="444" height="190" fill="#f8ded7" stroke="#11110f" stroke-width="3"/>
+  <rect x="1068" y="286" width="12" height="190" fill="#f0523e"/>
+  <text x="1102" y="330" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#f0523e">03 · 它怎么拿素材</text>
+  <text x="1102" y="374" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#11110f">打开你的收藏</text>
+  <text x="1102" y="414" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#11110f">Twitter 书签 / 抖音 / 小红书</text>
+  <text x="1102" y="446" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#5c5a54">不在全网盲目搜索</text>
+
+  <rect x="88" y="510" width="444" height="190" fill="#e9e6dd" stroke="#11110f" stroke-width="3"/>
+  <rect x="88" y="510" width="12" height="190" fill="#11110f"/>
+  <text x="122" y="554" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#f0523e">04 · Skill 负责什么</text>
+  <text x="122" y="598" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="900" fill="#11110f">提炼观点，识别选题</text>
+  <text x="122" y="638" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#11110f">分析结构，找出可借鉴之处</text>
+  <text x="122" y="670" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#5c5a54">事实、归纳、你的判断分开写</text>
+
+  <rect x="578" y="510" width="444" height="190" fill="#dff0e8" stroke="#11110f" stroke-width="3"/>
+  <rect x="578" y="510" width="12" height="190" fill="#43a56f"/>
+  <text x="612" y="554" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#f0523e">05 · 知识库负责什么</text>
+  <text x="612" y="598" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="900" fill="#11110f">保存，下一次继续调用</text>
+  <text x="612" y="638" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#11110f">素材、案例、经验、历史文章</text>
+  <text x="612" y="670" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#5c5a54">不是收藏夹，是可复用的内容资产</text>
+
+  <rect x="1068" y="510" width="444" height="190" fill="#fff4a8" stroke="#11110f" stroke-width="3"/>
+  <rect x="1068" y="510" width="12" height="190" fill="#f4d900"/>
+  <text x="1102" y="554" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="900" fill="#f0523e">06 · 最后交付什么</text>
+  <text x="1102" y="598" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="900" fill="#11110f">选题 → 大纲 → 公众号初稿</text>
+  <text x="1102" y="638" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#11110f">自检后停在“待人工确认”</text>
+  <text x="1102" y="670" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#5c5a54">发布、发送、删除由你拍板</text>
+
+  <line x1="88" y1="756" x2="1512" y2="756" stroke="#11110f" stroke-width="3"/>
+  <text x="88" y="812" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" font-weight="900" fill="#f0523e">完整链路</text>
+  <text x="88" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#11110f">收藏素材</text>
+  <text x="262" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" fill="#f0523e">→</text>
+  <text x="304" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#11110f">分析</text>
+  <text x="408" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" fill="#f0523e">→</text>
+  <text x="450" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#11110f">Obsidian</text>
+  <text x="640" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" fill="#f0523e">→</text>
+  <text x="682" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#11110f">选题</text>
+  <text x="786" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" fill="#f0523e">→</text>
+  <text x="828" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#11110f">公众号初稿</text>
+  <text x="1098" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" fill="#f0523e">→</text>
+  <text x="1140" y="862" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#11110f">你确认</text>
+  <text x="88" y="920" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#5c5a54">这不是学会几个工具，而是让一个数字员工真正完成一次工作。</text>
+</svg>

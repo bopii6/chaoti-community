@@ -1,0 +1,304 @@
+{
+  "code" : 2000,
+  "msg" : "成功",
+  "data" : {
+    "platformInfo" : {
+      "platformCode" : "gongzhonghao",
+      "platformName" : "公众号",
+      "description" : "微信公众号平台API",
+      "iconUrl" : null,
+      "sortOrder" : 3,
+      "status" : "online",
+      "categories" : null
+    },
+    "interfaceInfo" : {
+      "id" : 247,
+      "interfaceNo" : "1LDQ7E1C",
+      "platformCode" : "gongzhonghao",
+      "platformName" : "公众号",
+      "interfaceName" : "根据作品uuid获取公众号作品 (广域库)",
+      "path" : "/story/api/gzh/data/workDetail",
+      "httpMethod" : "POST",
+      "displayStatus" : 5,
+      "status" : 1,
+      "description" : "通过作品ID查询公众号文章详细内容，包含正文content字段。",
+      "category" : null,
+      "categoryId" : null,
+      "categoryName" : null,
+      "price" : 0.04,
+      "minPrice" : 0.02,
+      "discountedPrice" : null,
+      "rateLimit" : null,
+      "requireAuth" : true,
+      "parameters" : null,
+      "examples" : null
+    },
+    "parameters" : [ {
+      "id" : 765,
+      "interfaceId" : 247,
+      "paramName" : "workUuid",
+      "paramType" : "String",
+      "required" : true,
+      "description" : "作品ID",
+      "defaultValue" : "",
+      "exampleValue" : "361A2B123A064DDA8D842E892D3ABF33",
+      "paramLocation" : "body",
+      "parentParam" : "",
+      "sortOrder" : 0
+    } ],
+    "responseParameters" : [ {
+      "id" : 2147,
+      "interfaceId" : 247,
+      "paramName" : "code",
+      "paramType" : "Integer",
+      "paramLocation" : "body",
+      "description" : "接口响应状态码，例如 2000 表示成功",
+      "exampleValue" : "2000",
+      "parentParam" : "",
+      "sortOrder" : 0
+    }, {
+      "id" : 2149,
+      "interfaceId" : 247,
+      "paramName" : "title",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "作品标题",
+      "exampleValue" : "救命！我可能再也穿不回普通内裤了...",
+      "parentParam" : "data",
+      "sortOrder" : 0
+    }, {
+      "id" : 2148,
+      "interfaceId" : 247,
+      "paramName" : "data",
+      "paramType" : "Object",
+      "paramLocation" : "body",
+      "description" : "接口返回的主要数据内容",
+      "exampleValue" : "",
+      "parentParam" : "",
+      "sortOrder" : 1
+    }, {
+      "id" : 2150,
+      "interfaceId" : 247,
+      "paramName" : "summary",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "作品简介",
+      "exampleValue" : "深夜十点，陪你读书。",
+      "parentParam" : "data",
+      "sortOrder" : 1
+    }, {
+      "id" : 2151,
+      "interfaceId" : 247,
+      "paramName" : "content",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "作品正文",
+      "exampleValue" : "最近这天气，简直要热爆了~\n好多地方甚至直逼40℃，热҈热҈热҈，一出门就像是进了蒸笼里！\n这么热的天气，天天就跟蒸桑拿一样，私处很容易闷汗、潮湿，内裤也变得紧、闷、粘pp。\n内裤太厚，坐一会裤子都汗湿了；  不合身的内裤，还会夹臀、卷边，非常尴尬。\n碰到了南方的梅雨天气，就像住进了水帘洞，内裤不容易干，晒几天了，还是潮乎乎的~\n再碰上姨妈期，汗液夹杂着姨妈血，聚集在大腿和私处，湿乎乎的，就是细菌的“培养皿”。\n所以，女孩子夏天选内裤，要谨慎再谨慎。\n而且为了自己的健康，2、3个月就要换一批内裤了~\n强烈给大家安利这款轻薄、透气、软糯亲肤的——\n狂野橘子桑蚕丝羽感内裤\n清华大学学姐专为女性夏季闷热、湿热问题打造「100%桑蚕丝内裤」。\n看到「100%桑蚕内裤」，老粉应该眼熟，春秋版我们已经开团过好几次，光我自己和买给家人的，就回购了十几条。\n点击下面图片，抢先购\uD83D\uDC47\n不光我自己复购，直接给大家看后台订单已经卖了15000+盒！\n复购订单订单多得数不过来，口碑也空前得好！\n穿过「100%蚕丝底裆」内裤                   大概率就穿不习惯其他内裤\n今天开团的夏季新品，更是品牌2026年新品，\n我愿称之为今年夏天必不可少的单品！\n设计和用料依旧来自清华学姐谷小歌，每一处都是为我们的安全和舒适考虑。",
+      "parentParam" : "data",
+      "sortOrder" : 2
+    }, {
+      "id" : 2170,
+      "interfaceId" : 247,
+      "paramName" : "msg",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "接口响应的提示或错误信息",
+      "exampleValue" : "成功",
+      "parentParam" : "",
+      "sortOrder" : 2
+    }, {
+      "id" : 2152,
+      "interfaceId" : 247,
+      "paramName" : "workUrl",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "作品链接",
+      "exampleValue" : "https://mp.weixin.qq.com/s?__biz=MjM5MDMyMzg2MA==&mid=2656217840&idx=2&sn=d4ea85ca42bcc609633c2d6c485c01fe#rd",
+      "parentParam" : "data",
+      "sortOrder" : 3
+    }, {
+      "id" : 2153,
+      "interfaceId" : 247,
+      "paramName" : "coverUrl",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "作品封面链接",
+      "exampleValue" : "https://mmbiz.qpic.cn/sz_mmbiz_jpg/iaJ8t5teDHLSHsicnzbGXLJUAWibbMo7oVDzOrj5Z1daDBl08cxaeS2v6rF3m0YK0oIZA32hb8uUOPiaBPiaJPgZaF6hzxT6Zy1QymxW3Cs5VSVk/0?wx_fmt=jpeg",
+      "parentParam" : "data",
+      "sortOrder" : 4
+    }, {
+      "id" : 2154,
+      "interfaceId" : 247,
+      "paramName" : "publishTime",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "发布时间",
+      "exampleValue" : "2026-07-21 18:30:00",
+      "parentParam" : "data",
+      "sortOrder" : 5
+    }, {
+      "id" : 2155,
+      "interfaceId" : 247,
+      "paramName" : "readCount",
+      "paramType" : "Integer",
+      "paramLocation" : "body",
+      "description" : "阅读数",
+      "exampleValue" : "29115",
+      "parentParam" : "data",
+      "sortOrder" : 6
+    }, {
+      "id" : 2156,
+      "interfaceId" : 247,
+      "paramName" : "likeCount",
+      "paramType" : "Integer",
+      "paramLocation" : "body",
+      "description" : "点赞数",
+      "exampleValue" : "93",
+      "parentParam" : "data",
+      "sortOrder" : 7
+    }, {
+      "id" : 2157,
+      "interfaceId" : 247,
+      "paramName" : "watchCount",
+      "paramType" : "Integer",
+      "paramLocation" : "body",
+      "description" : "在看数",
+      "exampleValue" : "35",
+      "parentParam" : "data",
+      "sortOrder" : 8
+    }, {
+      "id" : 2158,
+      "interfaceId" : 247,
+      "paramName" : "author",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "账号昵称",
+      "exampleValue" : "十点读书",
+      "parentParam" : "data",
+      "sortOrder" : 9
+    }, {
+      "id" : 2159,
+      "interfaceId" : 247,
+      "paramName" : "isOriginal",
+      "paramType" : "Integer",
+      "paramLocation" : "body",
+      "description" : "原创标识，1 为原创",
+      "exampleValue" : "0",
+      "parentParam" : "data",
+      "sortOrder" : 10
+    }, {
+      "id" : 2160,
+      "interfaceId" : 247,
+      "paramName" : "orderNum",
+      "paramType" : "Integer",
+      "paramLocation" : "body",
+      "description" : "发文位置，0 为头条",
+      "exampleValue" : "1",
+      "parentParam" : "data",
+      "sortOrder" : 11
+    }, {
+      "id" : 2161,
+      "interfaceId" : 247,
+      "paramName" : "commentCount",
+      "paramType" : "Integer",
+      "paramLocation" : "body",
+      "description" : "评论数",
+      "exampleValue" : "3",
+      "parentParam" : "data",
+      "sortOrder" : 12
+    }, {
+      "id" : 2162,
+      "interfaceId" : 247,
+      "paramName" : "collectCount",
+      "paramType" : "Integer",
+      "paramLocation" : "body",
+      "description" : "收藏数",
+      "exampleValue" : "23",
+      "parentParam" : "data",
+      "sortOrder" : 13
+    }, {
+      "id" : 2163,
+      "interfaceId" : 247,
+      "paramName" : "shareCount",
+      "paramType" : "Integer",
+      "paramLocation" : "body",
+      "description" : "分享数",
+      "exampleValue" : "93",
+      "parentParam" : "data",
+      "sortOrder" : 14
+    }, {
+      "id" : 2164,
+      "interfaceId" : 247,
+      "paramName" : "sourceUrl",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "阅读原文链接",
+      "exampleValue" : "null",
+      "parentParam" : "data",
+      "sortOrder" : 15
+    }, {
+      "id" : 2165,
+      "interfaceId" : 247,
+      "paramName" : "syncTime",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "采集时间",
+      "exampleValue" : "2026-07-22 07:13:16",
+      "parentParam" : "data",
+      "sortOrder" : 16
+    }, {
+      "id" : 2166,
+      "interfaceId" : 247,
+      "paramName" : "originalAuthor",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "原创作者",
+      "exampleValue" : "null",
+      "parentParam" : "data",
+      "sortOrder" : 17
+    }, {
+      "id" : 2167,
+      "interfaceId" : 247,
+      "paramName" : "authorAvatarUrl",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "作者头像链接",
+      "exampleValue" : "http://mmbiz.qpic.cn/mmbiz_png/icB0yCLh6LJv46iardk496LKEUIJmurHoibTKZspMSWkGkwFDXG7abmII5yspeiaL2Fc96zu9zjTCRIdyJwyrzH2rw/0?wx_fmt=png",
+      "parentParam" : "data",
+      "sortOrder" : 18
+    }, {
+      "id" : 2168,
+      "interfaceId" : 247,
+      "paramName" : "bizInfo",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "公众号采集用ID",
+      "exampleValue" : "MjM5MDMyMzg2MA==",
+      "parentParam" : "data",
+      "sortOrder" : 19
+    }, {
+      "id" : 2169,
+      "interfaceId" : 247,
+      "paramName" : "workUuid",
+      "paramType" : "String",
+      "paramLocation" : "body",
+      "description" : "作品ID",
+      "exampleValue" : "361A2B123A064DDA8D842E892D3ABF33",
+      "parentParam" : "data",
+      "sortOrder" : 20
+    } ],
+    "examples" : [ {
+      "id" : 139,
+      "interfaceId" : 247,
+      "exampleType" : "success",
+      "title" : "成功调用示例",
+      "statusCode" : 200,
+      "responseContent" : "{\n  \"code\": 2000,\n  \"data\": {\n    \"author\": \"十点读书\",\n    \"authorAvatarUrl\": \"http://mmbiz.qpic.cn/mmbiz_png/icB0yCLh6LJv46iardk496LKEUIJmurHoibTKZspMSWkGkwFDXG7abmII5yspeiaL2Fc96zu9zjTCRIdyJwyrzH2rw/0?wx_fmt=png\",\n    \"bizInfo\": \"MjM5MDMyMzg2MA==\",\n    \"collectCount\": 23,\n    \"commentCount\": 3,\n    \"content\": \"最近这天气，简直要热爆了~\\n好多地方甚至直逼40℃，热҈热҈热҈，一出门就像是进了蒸笼里！\\n这么热的天气，天天就跟蒸桑拿一样，私处很容易闷汗、潮湿，内裤也变得紧、闷、粘pp。\\n内裤太厚，坐一会裤子都汗湿了；  不合身的内裤，还会夹臀、卷边，非常尴尬。\\n碰到了南方的梅雨天气，就像住进了水帘洞，内裤不容易干，晒几天了，还是潮乎乎的~\\n再碰上姨妈期，汗液夹杂着姨妈血，聚集在大腿和私处，湿乎乎的，就是细菌的“培养皿”。\\n所以，女孩子夏天选内裤，要谨慎再谨慎。\\n而且为了自己的健康，2、3个月就要换一批内裤了~\\n强烈给大家安利这款轻薄、透气、软糯亲肤的——\\n狂野橘子桑蚕丝羽感内裤\\n清华大学学姐专为女性夏季闷热、湿热问题打造「100%桑蚕丝内裤」。\\n看到「100%桑蚕内裤」，老粉应该眼熟，春秋版我们已经开团过好几次，光我自己和买给家人的，就回购了十几条。\\n点击下面图片，抢先购\uD83D\uDC47\\n不光我自己复购，直接给大家看后台订单已经卖了15000+盒！\\n复购订单订单多得数不过来，口碑也空前得好！\\n穿过「100%蚕丝底裆」内裤                   大概率就穿不习惯其他内裤\\n今天开团的夏季新品，更是品牌2026年新品，\\n我愿称之为今年夏天必不可少的单品！\\n设计和用料依旧来自清华学姐谷小歌，每一处都是为我们的安全和舒适考虑。\\n所有姐妹听我一句劝：\\n2026夏天，试试这一条，你再也看不上大部分普通内裤！\\n中腰和高腰2款可选，90斤穿到150斤                                     从青少年到妈妈奶奶都能穿得舒服\\n整片底裆一如既往坚持使用100%桑蚕丝！ \\n我直接剪了一条，烧给大家看：\\n燃烧冒白烟，烧完后用手一捻就成粉末  闻起来有烧头发的味道  ↓↓↓\\n不像其他有些品牌，宣称“桑蚕丝内裤”，烧出来都是塑料味：\\n仿真丝或化纤含量高的面料，烧起来是灰烟  结团变成块状，闻起来是塑料味↓↓↓\\n我还发现100%桑蚕丝底档，比一般的内裤更容易清洗，对女性来说真的太贴心了！\\n新品裤身面料直接下血本：采用德国进口44针冰丝飘飞面料！\\n小歌告诉我，这是她选了好几个月，才最终敲定适合夏季高温，\\n而且贴合女性肌肤的高定面料\uD83D\uDC47\\n纺织行业内部把这种面料称为「飘飞」，\\n真的就像羽毛一样轻柔细腻，吹口气几乎能飘起来\uD83D\uDC47\\n上身就有丝丝凉意，连续叠加7条内裤，透气率一点不减\uD83D\uDC47\\n弹性特别大，90斤-150斤都能穿，\\n而且肚子、屁股有肉也不怕，上身一点不感觉勒。\\n新品升级10A级抗菌的安心保护力！\\n这个品牌还有一点让我特别放心，检测报告做得特别全。\\n不含荧光剂，孕妈、宝妈、敏感肌都能穿，水洗150次后依旧保持10A抗菌的健康力。\\n无论是夏季的高温闷热，还是回南天、梅雨天的湿热，\\n是真的在帮女性解决内裤闷菌和异味的尴尬。\\n新品直接安排了2个版型可选：中腰款和高腰款。\\n2个版型都是为中国女性身形量身定制（有小肚子、屁股有肉、胯宽）的加宽全包裹的版型。\\n不管你是什么身材，什么年龄穿都合适，不夹臀、不卡裆、不卷边。\\n✅ 中腰款（适合90-135斤）\\n经典实穿，中、低腰裤不露出，不下滑，搭配各种衣服裙子都合适，学生党闭眼入。\\n✅ 高腰款（适合100-150斤）\\n温柔包裹小腹，高弹收腹不勒肉！肚子大的苹果型身材、妈妈们会特别爱！\\n新品以山茶花为灵感，高定弹性蕾丝封边。\\n更吸引我的是，这条内裤不仅安全舒适，颜值还特别高。\\n裤腰和裤腿都是清华学姐以山茶花为灵感，\\n定格花开三态：花苞的期待，初绽的清新，盛放的热烈，是送给所有女性的贴身温柔情书。\\n这个配置在市面上真的很少见。\\n不是我说，清华学姐做的内裤，真的有过人之处。\\n强烈建议：不管你是少女、中女，还是上了年纪的妈妈、婆婆，今天一定要试试这条「100%桑蚕丝内裤」。\\n更重要的是，这么好的内裤真的不贵，性价比卷疯同行！\\n老粉都知道清华学姐的品牌一直走高端路线官方价 ¥239-249/盒（7条）\\n但我们合作过很多次，直接争取到新品尝鲜闺蜜价——直降150元，砍到超低价：\\n「中腰款」到手价 ¥89/盒（7条）       「高腰款」到手价 ¥99/盒（7条）\\n重磅叠加福利：任意两盒组合再减10元，平均单条低至十二块多！\\n一盒是七条装，底裆都100%桑蚕丝，每天换一条，一周都够穿。\\n大家可以任意去跟别的品牌比价，实打实对比，闭眼囤不亏！\\n相信我，到了夏天，这种100%桑蚕丝+抗菌+轻薄+干得快的内裤，真的多多益善！\\n使用吹风机测试，裤身不到两分钟就干透了。\\n不管是自己穿、跟闺蜜拼单，或者给妈妈婆婆送，礼盒包装，特别拿得出手。\\n中国女人，正在流行穿这种内裤，要清凉、要无感、要干净、要舒服。\\n温馨提示：\\n1.由于面料高弹特性，足够包容不同身材，中腰款、高腰款都为均码，在推荐体重内都可以放心选购。中腰款建议90-135斤穿着，高腰款建议100-150斤穿着。\\n这款内裤弹力很大，同事140斤两款都穿得下哦，她本人更喜欢高腰款，大家参考下~\\n限时福利，立即抢购\\n活动时间：7月21日~7月24日23:59          关注微信公众号“十点好物”查询订单、物流                          100%桑蚕丝底裆             10A级安心抗菌\\n我们中国本就是桑蚕丝大国，桑蚕丝资源得天独厚。\\n这也是中国女人爱穿100%桑蚕丝内裤的原因！\\n但大家购买时，一定要擦亮眼睛！别被假货骗了！\\n市面上很多内裤都蹭「桑蚕丝」热度，标题疯狂宣传，点开成分一看，桑蚕丝含量低到可以忽略不计\uD83E\uDD0F\uD83C\uDFFB\\n买内裤千万别贪便宜       一定要认准真材实料\\n今天开团的狂野橘子内裤，不是含有桑蚕丝，\\n而是整个底裆100%桑蚕丝全覆盖。\\n裤身成分公开透明、清晰标注！还有专业机构出具的面料检验报告，\\n保证真桑蚕丝品质，有据可查，绝不踩坑！\\n另外，市面上很多桑蚕丝内裤还停留在3A、5A基础抗菌，\\n狂野橘子这款桑蚕丝羽感内裤，直接拉到更高：10A级抗菌安心防护。\\n直接给大家看检测报告，水洗300次，依旧保持妥妥的抗菌力！\\n300次水洗后也不受菌困扰  超长耐穿抗菌，远离异味尴尬           （还是建议内裤一般3~6个月一换哦）\\n真心跟大家说一句！我穿过100%桑蚕丝底裆，再也看不上其他材质底挡的内裤了！\\n轻轻薄薄的一层，比纯棉内裤更柔软细腻，还不用担心像棉质内裤洗多了变得干硬\uD83D\uDC47\\n吸湿、透气、排湿能力全面碾压大部分内裤，\\n可以快速吸收皮肤表面的水分，让我们身体时刻保持干爽舒服\uD83D\uDC47\\n真心建议大家：2026年夏天，试一试这种100%桑蚕丝内裤。\\n毕竟咱们中国桑蚕丝纺织业的实力摆在这里了，咱们中国女人自己肯定要先用上\uD83D\uDC47\\n限时福利，立即抢购\\n活动时间：7月21日~7月24日23:59          关注微信公众号“十点好物”查询订单、物流\\n44针德国进口「飘飞」冰丝       是你没穿过的高定内裤\\n除了底裆厉害，这条内裤的裤身也很有来头：\\n德国进口的44针冰丝高定面料。\\n⭐️ 超轻减负！\\n整条内裤的重量只有17.3g，穿上身的存在感几乎可以忽略不计！\\n柔软细腻，犹如第二层肌肤。\\n⭐️ 比薄更薄！\\n我买来了专门的测厚仪器，测试了几款春夏内裤的厚度。\\n狂野橘子这款羽感桑蚕丝内裤只有0.2mm，轻薄质感吊打大部分内裤！\\n⭐️ 超强透气！\\n我们现场测试它的透气性，直接叠加上7条，依然呼呼透气。\\n夏天穿着巨凉快，彻底告别闷热黏腻！\\n⭐️ 干得巨快！\\n夏季出汗多，还有阴雨天内裤难晾干，现在有这一条就不怕了，\\n洗完就能穿，使用吹风机测试，裤身不到两分钟就干透了。\\n⭐️ 高弹无束缚，包容90-150斤的身材。\\n裤身的冰丝材质与氨纶以恰到好处的「黄金比例」混纺，\\n高弹抗变形！肚子、屁屁有肉全能温柔包容，妈妈穿会非常非常爱这种内裤\uD83D\uDC47\\n穿上它，彻底遗忘普通内裤的闷汗、勒肤、不适感。\\n只剩轻盈、贴肤、安心，搭配桑蚕丝底裆，双重守护女性健康！\\n限时福利，立即抢购\\n活动时间：7月21日~7月24日23:59          关注微信公众号“十点好物”查询订单、物流\\n全包裹臀型，舒适不夹臀       中腰、高腰可选\\n前面说了，这条内裤除了面料好，版型也封神。\\n是专为中国女性身形量身定制（有小肚子、屁股有肉、胯宽）的加宽全包裹的版型。\\n走路不夹臀、久坐不夹臀       蹲、躺、大跨步...都不夹臀\\n每一处细节，都是为女性舒适体感量身打造！\\n版型对比实拍，优劣一眼看清：\\n一眼就能看出哪款更好穿！\\n更贴心的是，这条内裤还做了2个版型设计：中腰款和高腰款。\\n精准适配不同身材，适配不同年龄和体重，从少女到妈妈、婆婆都爱穿。\\n✅ 中腰款（适合90-135斤）\\n经典实穿，中、低腰裤不露出，不下滑，搭配各种衣服裙子都合适，学生党闭眼入。\\n✅ 高腰款（适合100-150斤）\\n温柔包裹小腹，高弹收腹不勒肉，\\n肚子大的苹果型身材、妈妈们会特别爱！\\n是真的颜值与实力并存！\\n以山茶花为灵感，2cm加宽高定高弹蕾丝，不勒腰、不硌肤、柔软亲肤，舒适度满满！\\n一盒7条超足量装，6种低饱和温柔配色：\\n肤色、淡蓝、豆绿、藕粉、灰紫、黑色。其中，隐形百搭的肤色有两条，其他彩色各一条，日常轮换不重样！\\n低饱和配色，清新柔和       穿浅色裙子也不容易透出颜色\\n大家放心，几个颜色都是活性印染，安全、不易掉色。\\n裤腿也不容易卷边移位。\\n工整精细走线，娇嫩肌肤穿上都没什么异物感，像呼吸一样自然。\\n摒弃廉价塑料洗水标！而是用上了贵价品牌才做的高端无感印标\uD83D\uDC47\\n两侧缝线前移的设计，侧身睡觉、日常贴身穿着零摩擦、零不适感\uD83D\uDC47\\n因为材质轻薄，搭配一些比较紧身的裤子和裙子也不容易露出痕迹。\\n不止年轻女性能穿！我也强烈建议你给妈妈囤一盒！\\n100%桑蚕丝底裆+44针飘飞冰丝，她可能没穿过这么舒服的内裤\uD83D\uDC47\\n我给大家实打实算笔账，看它有多值：\\n\uD83C\uDF4A狂野橘子·桑蚕丝羽感内裤  底裆100%桑蚕丝，裤身44针德国进口冰丝，10A级抗菌\\n中腰款  ¥89 / 七条，高腰款  ¥99/七条，  两盒优惠后，单价可低至十二块多\\n\uD83E\uDD2B舒*内裤  含6.3%桑蚕丝，3A级抗菌  \uD83D\uDC49\uD83C\uDFFB¥99.9 / 三条，单价 ¥33.3\\n\uD83E\uDD2B蕉*内裤  主打93%莫代尔（不含桑蚕丝），5A级抗菌  \uD83D\uDC49\uD83C\uDFFB¥103/ 三条，单价 ¥34.3\\n价格更低、数量更多  面料/抗菌效果都更好\\n所谓没有对比就没有伤害！\\n今天开团含量更高、配置更好、价格更低、数量更多，甚至比普通纯棉内裤还要便宜！\\n别犹豫，趁这次夏季新品上新折扣，赶紧给自己、妈妈囤够这半年的内裤。\\n【留言福利】：已下单的读者可以在留言区留言单号，抽取8位读者，每人送茶秘密 玉米须茶（8克*15包 6味古法草本配方 0糖0香精0添加 清香解腻~）（7月24日开奖）\\n限时福利，立即抢购\\n活动时间：7月21日~7月24日23:59          关注微信公众号“十点好物”查询订单、物流\\n温馨提示\\n如有任何问题可通过“十点好物-我的-联系客服”咨询，服务时间为：9:00-23:00，感谢您的支持！\\n—广告—\\n\",\n    \"coverUrl\": \"https://mmbiz.qpic.cn/sz_mmbiz_jpg/iaJ8t5teDHLSHsicnzbGXLJUAWibbMo7oVDzOrj5Z1daDBl08cxaeS2v6rF3m0YK0oIZA32hb8uUOPiaBPiaJPgZaF6hzxT6Zy1QymxW3Cs5VSVk/0?wx_fmt=jpeg\",\n    \"isOriginal\": 0,\n    \"likeCount\": 93,\n    \"orderNum\": 1,\n    \"originalAuthor\": null,\n    \"publishTime\": \"2026-07-21 18:30:00\",\n    \"readCount\": 29115,\n    \"shareCount\": 93,\n    \"sourceUrl\": null,\n    \"summary\": \"深夜十点，陪你读书。\",\n    \"syncTime\": \"2026-07-22 07:13:16\",\n    \"title\": \"救命！我可能再也穿不回普通内裤了...\",\n    \"watchCount\": 35,\n    \"workUrl\": \"https://mp.weixin.qq.com/s?__biz=MjM5MDMyMzg2MA==&mid=2656217840&idx=2&sn=d4ea85ca42bcc609633c2d6c485c01fe#rd\",\n    \"workUuid\": \"361A2B123A064DDA8D842E892D3ABF33\"\n  },\n  \"msg\": \"成功\"\n}",
+      "description" : "通过作品ID查询公众号文章详细内容，包含正文content字段。",
+      "codeExample" : "请求参数：\n{\n  \"workUuid\": \"361A2B123A064DDA8D842E892D3ABF33\"\n}",
+      "codeLanguage" : "curl"
+    } ],
+    "baseUrl" : "https://redfox.hk",
+    "fullUrlExample" : "POST https://redfox.hk/story/api/gzh/data/workDetail"
+  }
+}
