@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260826-delivery-levels-layout" />
+    <link rel="stylesheet" href="styles.css?v=20260827-course-practice-copy" />
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要内容</a>
@@ -132,54 +132,55 @@
         </div>
 
         <div class="section-shell deliverables-shell">
+          <section id="ai-levels" class="delivery-block delivery-levels" aria-labelledby="delivery-levels-title">
+            <div class="delivery-subsection-heading">
+              <p class="eyebrow">01 · AI CAPABILITY LEVELS</p>
+              <h3 id="delivery-levels-title">AI 的 6 级体系</h3>
+              <p>不需要一开始就学到最高级。先找到你现在的位置，再决定下一步该补什么能力。</p>
+            </div>
+            <div class="ai-levels-gallery-shell">
+              <nav class="ai-level-stepper" aria-label="AI六级学习路径">
+                <button class="ai-level-step is-active" type="button" data-level="0"><span>01</span><strong>对话型 AI</strong></button>
+                <button class="ai-level-step" type="button" data-level="1"><span>02</span><strong>基础型 Agent</strong></button>
+                <button class="ai-level-step" type="button" data-level="2"><span>03</span><strong>增强型 Agent</strong></button>
+                <button class="ai-level-step" type="button" data-level="3"><span>04</span><strong>工作流型 Agent</strong></button>
+                <button class="ai-level-step" type="button" data-level="4"><span>05</span><strong>自动化型 Agent</strong></button>
+                <button class="ai-level-step" type="button" data-level="5"><span>06</span><strong>AI 工具开发</strong></button>
+              </nav>
+              <div class="ai-level-reader">
+                <div class="ai-level-reader-media">
+                  <button id="ai-level-reader-image-button" class="ai-level-image-button" type="button" data-lightbox-src="assets/ai-levels/01-dialogue.png" data-lightbox-alt="AI能力等级01：对话型AI">
+                    <img id="ai-level-reader-image" src="assets/ai-levels/01-dialogue.png" alt="AI能力等级01：对话型AI" />
+                    <span class="ai-level-zoom" aria-hidden="true">放大查看 ↗</span>
+                  </button>
+                </div>
+                <div class="ai-level-reader-copy">
+                  <p id="ai-level-reader-kicker" class="eyebrow">LEVEL 01 · 起点</p>
+                  <h2 id="ai-level-reader-title">对话型 AI</h2>
+                  <p id="ai-level-reader-lead" class="ai-level-reader-lead">会问问题，解决单点任务。</p>
+                  <dl class="ai-level-reader-facts">
+                    <div><dt>这一等级是怎么回事</dt><dd id="ai-level-reader-about">你有一个随叫随到的 AI 顾问：你提问，它回答；你提供材料，它帮你处理。</dd></div>
+                    <div><dt>什么时候升级</dt><dd id="ai-level-reader-upgrade">开始需要读取多个文件、连续执行多个步骤，或者直接交付工作成果。</dd></div>
+                    <div><dt>什么时候不用升级</dt><dd id="ai-level-reader-enough">如果你的目标只是日常问答、写作和整理，停在这一层就够用。</dd></div>
+                  </dl>
+                  <div class="ai-level-reader-actions"><button id="ai-level-prev" class="button button-dark" type="button" disabled>← 上一级</button><button id="ai-level-next" class="button button-yellow" type="button">下一级 →</button></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section class="delivery-block delivery-block-audience" aria-labelledby="delivery-audience-title">
-            <div class="delivery-block-heading"><p class="eyebrow">01 · WHO THIS IS FOR</p><h2 id="delivery-audience-title">先看你适不适合</h2><p>这不是按“懂不懂 AI”划分，而是看你想把 AI 接到哪一类事情里。</p></div>
+            <div class="delivery-block-heading"><p class="eyebrow">02 · WHO THIS IS FOR</p><h2 id="delivery-audience-title">先看你适不适合</h2><p>这不是按“懂不懂 AI”划分，而是看你想把 AI 接到哪一类事情里。</p></div>
             <div class="delivery-audience-list">
               <article class="delivery-audience-item"><span class="delivery-audience-index">01</span><h3>老板、管理者</h3><div><strong>需要视野、系统性和实操</strong><p>不只是听员工讲 AI 用了什么，而是自己理解 Agent、Skill、知识库、自动化和 AI 工具，知道哪些能力值得带回团队，哪些事情必须亲自掌握。</p><span class="delivery-audience-note">看得懂方向，也能亲手跑通。</span></div></article>
               <article class="delivery-audience-item"><span class="delivery-audience-index">02</span><h3>做内容的人</h3><div><strong>需要调研、知识库和内容生产线</strong><p>把需求和痛点调研做扎实，把外部素材沉淀成知识库，再把调研、选题、写作和发布串成一条可以反复使用的 AI 内容生产流程。</p><span class="delivery-audience-note">从找到问题，到持续交出内容。</span></div></article>
               <article class="delivery-audience-item"><span class="delivery-audience-index">03</span><h3>有想法、有灵感的人</h3><div><strong>需要把灵感变成产品去上架</strong><p>把脑中的想法缩成一个能做的第一版，用 AI 做出网站或微信小程序原型，拿真实材料测试，再一步步走向发布和上架。</p><span class="delivery-audience-note">先把想法做出来，再决定要不要继续。</span></div></article>
             </div>
 
-            <section id="ai-levels" class="delivery-levels" aria-labelledby="delivery-levels-title">
-              <div class="delivery-subsection-heading">
-                <p class="eyebrow">AI CAPABILITY LEVELS</p>
-                <h3 id="delivery-levels-title">AI 的 6 级体系</h3>
-                <p>不需要一开始就学到最高级。先找到你现在的位置，再决定下一步该补什么能力。</p>
-              </div>
-              <div class="ai-levels-gallery-shell">
-                <nav class="ai-level-stepper" aria-label="AI六级学习路径">
-                  <button class="ai-level-step is-active" type="button" data-level="0"><span>01</span><strong>对话型 AI</strong></button>
-                  <button class="ai-level-step" type="button" data-level="1"><span>02</span><strong>基础型 Agent</strong></button>
-                  <button class="ai-level-step" type="button" data-level="2"><span>03</span><strong>增强型 Agent</strong></button>
-                  <button class="ai-level-step" type="button" data-level="3"><span>04</span><strong>工作流型 Agent</strong></button>
-                  <button class="ai-level-step" type="button" data-level="4"><span>05</span><strong>自动化型 Agent</strong></button>
-                  <button class="ai-level-step" type="button" data-level="5"><span>06</span><strong>AI 工具开发</strong></button>
-                </nav>
-                <div class="ai-level-reader">
-                  <div class="ai-level-reader-media">
-                    <button id="ai-level-reader-image-button" class="ai-level-image-button" type="button" data-lightbox-src="assets/ai-levels/01-dialogue.png" data-lightbox-alt="AI能力等级01：对话型AI">
-                      <img id="ai-level-reader-image" src="assets/ai-levels/01-dialogue.png" alt="AI能力等级01：对话型AI" />
-                      <span class="ai-level-zoom" aria-hidden="true">放大查看 ↗</span>
-                    </button>
-                  </div>
-                  <div class="ai-level-reader-copy">
-                    <p id="ai-level-reader-kicker" class="eyebrow">LEVEL 01 · 起点</p>
-                    <h2 id="ai-level-reader-title">对话型 AI</h2>
-                    <p id="ai-level-reader-lead" class="ai-level-reader-lead">会问问题，解决单点任务。</p>
-                    <dl class="ai-level-reader-facts">
-                      <div><dt>这一等级是怎么回事</dt><dd id="ai-level-reader-about">你有一个随叫随到的 AI 顾问：你提问，它回答；你提供材料，它帮你处理。</dd></div>
-                      <div><dt>什么时候升级</dt><dd id="ai-level-reader-upgrade">开始需要读取多个文件、连续执行多个步骤，或者直接交付工作成果。</dd></div>
-                      <div><dt>什么时候不用升级</dt><dd id="ai-level-reader-enough">如果你的目标只是日常问答、写作和整理，停在这一层就够用。</dd></div>
-                    </dl>
-                    <div class="ai-level-reader-actions"><button id="ai-level-prev" class="button button-dark" type="button" disabled>← 上一级</button><button id="ai-level-next" class="button button-yellow" type="button">下一级 →</button></div>
-                  </div>
-                </div>
-              </div>
-            </section>
           </section>
 
           <section class="delivery-block delivery-block-output" aria-labelledby="delivery-output-title">
-            <div class="delivery-block-heading"><p class="eyebrow">02 · VISIBLE OUTPUT</p><h2 id="delivery-output-title">30 天后，你将会带走什么？</h2><p>不是听过几个名词，而是完成一组可以继续使用的具体成果。</p></div>
+            <div class="delivery-block-heading"><p class="eyebrow">03 · VISIBLE OUTPUT</p><h2 id="delivery-output-title">30 天后，你将会带走什么？</h2><p>不是听过几个名词，而是完成一组可以继续使用的具体成果。</p></div>
             <div class="delivery-output-grid">
               <article class="delivery-output-item delivery-output-item--yellow"><span class="delivery-index">01</span><div><h3>扎实的 AI Agent 基础</h3><p>把对话、模型、上下文、文件、任务拆解、检查和边界一项项讲清楚，先知道 AI 到底在替你做什么。</p></div><strong>一套能自己判断、能继续往上学的 Agent 基础</strong></article>
               <article class="delivery-output-item delivery-output-item--mint"><span class="delivery-index">02</span><div><h3>提示词该怎么写</h3><p>把自己的真实任务交代清楚，让 AI 知道目标、材料、步骤和验收标准。</p></div><strong>一套能反复改、反复用的提示词</strong></article>
@@ -196,7 +197,7 @@
           </section>
 
           <section class="delivery-block delivery-block-capability" aria-labelledby="delivery-capability-title">
-            <div class="delivery-block-heading"><p class="eyebrow">03 · CAPABILITY BUILT</p><h2 id="delivery-capability-title">不止于浅层，更深入于能力层</h2><p>成果会留下来，能力也会留下来。它们决定你下一次能不能自己完成。</p></div>
+            <div class="delivery-block-heading"><p class="eyebrow">04 · CAPABILITY BUILT</p><h2 id="delivery-capability-title">不止于浅层，更深入于能力层</h2><p>成果会留下来，能力也会留下来。它们决定你下一次能不能自己完成。</p></div>
             <div class="delivery-capability-list">
               <article class="delivery-capability-item"><span class="delivery-index">A</span><div><h3>把模糊的想法，变成 AI 能执行的具体任务</h3><p>不再只说“帮我做一下”，而是知道怎样把目标和要求讲明白。</p></div></article>
               <article class="delivery-capability-item"><span class="delivery-index">B</span><div><h3>把重复的工作，提炼成一套可复用的流程</h3><p>先完成一次设置，再把同类任务反复调用，逐步交给自动化执行。</p></div></article>
@@ -206,7 +207,7 @@
           </section>
 
           <section class="delivery-block delivery-manual" aria-labelledby="delivery-manual-title">
-            <div class="delivery-block-heading"><p class="eyebrow">04 · PURCHASE DETAILS</p><h2 id="delivery-manual-title">购买说明</h2><p>这不是报名门槛，是购买前该被讲清楚的事实。我们不靠社群打卡，也不把你的责任交给 AI。</p></div>
+            <div class="delivery-block-heading"><p class="eyebrow">05 · PURCHASE DETAILS</p><h2 id="delivery-manual-title">购买说明</h2><p>这不是报名门槛，是购买前该被讲清楚的事实。我们不靠社群打卡，也不把你的责任交给 AI。</p></div>
             <div class="delivery-manual-list">
               <article class="delivery-manual-item"><span>01</span><div><h3>每周固定直播 2 小时</h3><p>每周六上午 9:00–11:00。会有回放，但建议尽量现场来：课程讲解、集中答疑都发生在直播间。除此之外，请为完成清单留出实践时间。</p></div></article>
               <article class="delivery-manual-item"><span>02</span><div><h3>直播 + 录播 + 文档</h3><p>你可以现场跟着做，也可以回看录播；课程会提供配套文档，方便在自己的电脑上反复操作和复盘。</p></div></article>
@@ -228,7 +229,7 @@
           <div class="page-hero-inner">
             <p class="eyebrow">COURSE · 30天课程</p>
             <h1>30天，<br />跟着官方节奏走。</h1>
-            <p class="page-hero-lead">四个模块，从 Agent 基础、能力扩展，到工作流案例与工具实战。30天之后，不再畏惧 AI。</p>
+            <p class="page-hero-lead">系统性降低你的摸索成本。</p>
             <a class="course-card-library-link" href="preview-cards.html" target="_blank" rel="noopener">
               <span>
                 <small>课程重点速览 · 直播展示</small>
@@ -294,7 +295,7 @@
         <div class="page-hero ai-practice-hero">
           <div class="page-hero-inner ai-practice-hero-inner">
             <div>
-              <h1>销冠</h1>
+              <h1>不止讲概念，<br />更看重实干</h1>
               <p class="page-hero-lead">一段录音，拆出可复制的成交动作。</p>
             </div>
             <aside class="ai-practice-hero-note" aria-label="当前专题">
@@ -520,6 +521,6 @@
       </div>
     </footer>
 
-    <script src="app.js?v=20260826-delivery-levels"></script>
+    <script src="app.js?v=20260827-prompt-key-opening"></script>
   </body>
 </html>

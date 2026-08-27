@@ -20,6 +20,7 @@
       .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
       figure { margin: 0; }
       .card { display: block; width: 100%; aspect-ratio: 2 / 3; object-fit: cover; background: #fff; border: 1px solid var(--ink); box-shadow: 5px 5px 0 var(--ink); }
+      .card-placeholder { display: grid; place-items: center; padding: 24px; color: #6c6860; text-align: center; font-size: 16px; font-weight: 800; line-height: 1.45; }
       figcaption { display: flex; gap: 10px; align-items: flex-start; padding-top: 12px; font-size: 14px; line-height: 1.45; font-weight: 700; }
       figcaption b { flex: 0 0 auto; color: #a9432e; }
       @media (max-width: 1000px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
@@ -30,7 +31,7 @@
     <header>
       <p>小王 AI 课 · KNOWLEDGE CARDS</p>
       <h1>课程知识点卡片</h1>
-      <small>心态篇 3 张 · 模块一 7 张 · 模块二 15 张 · 共 25 张</small>
+      <small>心态篇 3 张 · 模块一 8 个课程位置 · 模块二 16 个课程位置 · 共 27 个课程位置</small>
     </header>
     <main>
       <section>
@@ -42,19 +43,20 @@
         </div>
       </section>
       <section>
-        <div class="section-head"><h2>模块一 · 从聊天到 Agent</h2><span>7 张</span></div>
+        <div class="section-head"><h2>模块一 · 从聊天到 Agent</h2><span>8 个课程位置</span></div>
         <div class="grid">
           <figure><img class="card" src="assets/knowledge-cards/lesson-04.png" alt="1.1 你的 AI 只会聊天，还是能干活" /><figcaption><b>1.1</b><span>你的 AI 只会聊天，还是能干活？</span></figcaption></figure>
           <figure><img class="card" src="assets/knowledge-cards/lesson-05.png" alt="1.2 给你的 AI 员工办入职" /><figcaption><b>1.2</b><span>给你的 AI 员工办入职：装好三个工具</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-06.png" alt="1.3 老板怎么派活" /><figcaption><b>1.3</b><span>老板怎么派活：把活交代漂亮</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-07.png" alt="1.4 让 Agent 员工掌握 72 变" /><figcaption><b>1.4</b><span>让 Agent 员工掌握 72 变，插上翅膀</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-08.png" alt="1.5 让 Agent 7x24 小时替你干活" /><figcaption><b>1.5</b><span>让 Agent 7×24 小时替你干活</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-09.png" alt="1.6 用 CC Switch 切换员工" /><figcaption><b>1.6</b><span>用 CC Switch 切换员工，降低 Agent 使用成本</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-10.png" alt="1.7 GitHub 的神奇用法" /><figcaption><b>1.7</b><span>GitHub 的神奇用法</span></figcaption></figure>
+          <figure><div class="card card-placeholder">1.3<br />知识点卡片待补</div><figcaption><b>1.3</b><span>Codex：老板的心头肉</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-06.png" alt="1.4 老板怎么派活" /><figcaption><b>1.4</b><span>老板怎么派活：把活交代漂亮</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-07.png" alt="1.5 让 Agent 员工掌握 72 变" /><figcaption><b>1.5</b><span>让 Agent 员工掌握 72 变，插上翅膀</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-08.png" alt="1.6 让 Agent 7x24 小时替你干活" /><figcaption><b>1.6</b><span>让 Agent 7×24 小时替你干活</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-09.png" alt="1.7 用 CC Switch 切换员工" /><figcaption><b>1.7</b><span>用 CC Switch 切换员工，降低 Agent 使用成本</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-10.png" alt="1.8 GitHub 的神奇用法" /><figcaption><b>1.8</b><span>GitHub 的神奇用法</span></figcaption></figure>
         </div>
       </section>
       <section>
-        <div class="section-head"><h2>模块二 · Agent 能力扩展</h2><span>15 张</span></div>
+        <div class="section-head"><h2>模块二 · Agent 能力扩展</h2><span>16 个课程位置</span></div>
         <div class="grid">
           <figure><img class="card" src="assets/knowledge-cards/lesson-11.png" alt="2.1 导读" /><figcaption><b>2.1</b><span>导读：让 Agent 学会 72 变，插上翅膀</span></figcaption></figure>
           <figure><img class="card" src="assets/knowledge-cards/lesson-12.png" alt="2.2 给足上下文" /><figcaption><b>2.2</b><span>给足上下文：上传截图，让 AI 快速定位问题</span></figcaption></figure>
@@ -64,13 +66,14 @@
           <figure><img class="card" src="assets/knowledge-cards/lesson-16.png" alt="2.6 把一本书蒸馏成 Skill" /><figcaption><b>2.6</b><span>Skill 进阶：把一本书蒸馏成 Skill</span></figcaption></figure>
           <figure><img class="card" src="assets/knowledge-cards/lesson-17.png" alt="2.7 把一个大 V 蒸馏成 Skill" /><figcaption><b>2.7</b><span>Skill 进阶：把一个大 V 蒸馏成 Skill</span></figcaption></figure>
           <figure><img class="card" src="assets/knowledge-cards/lesson-18.png" alt="2.8 把别人的 Skill 改成你的" /><figcaption><b>2.8</b><span>Skill 进阶：别从零造，把别人的 Skill 改成你的</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-19.png" alt="2.9 为什么要学习知识库" /><figcaption><b>2.9</b><span>知识库进阶：为什么要学习知识库？</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-20.png" alt="2.10 为什么选择 Obsidian" /><figcaption><b>2.10</b><span>知识库进阶：为什么我们要选择 Obsidian？</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-21.png" alt="2.11 让 Agent 读你的知识库" /><figcaption><b>2.11</b><span>知识库进阶：让 Agent 读你的知识库</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-22.png" alt="2.12 让外部素材自动流进来" /><figcaption><b>2.12</b><span>知识库进阶：让外部素材自动流进来</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-23.png" alt="2.13 收藏宝贝信息二次利用" /><figcaption><b>2.13</b><span>浏览器自动化进阶：让你的收藏宝贝信息二次利用</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-24.png" alt="2.14 监控变化自动提醒" /><figcaption><b>2.14</b><span>浏览器自动化进阶：监控变化自动提醒</span></figcaption></figure>
-          <figure><img class="card" src="assets/knowledge-cards/lesson-25.png" alt="2.15 操作网页后台与发布" /><figcaption><b>2.15</b><span>浏览器自动化进阶：操作网页后台与发布</span></figcaption></figure>
+          <figure><div class="card card-placeholder">2.9<br />知识点卡片待补</div><figcaption><b>2.9</b><span>Skill 进阶：如何团队共享一个 Skill</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-19.png" alt="2.10 为什么要学习知识库" /><figcaption><b>2.10</b><span>知识库进阶：为什么要学习知识库？</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-20.png" alt="2.11 为什么选择 Obsidian" /><figcaption><b>2.11</b><span>知识库进阶：为什么我们要选择 Obsidian？</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-21.png" alt="2.12 让 Agent 读你的知识库" /><figcaption><b>2.12</b><span>知识库进阶：让 Agent 读你的知识库</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-22.png" alt="2.13 让外部素材自动流进来" /><figcaption><b>2.13</b><span>知识库进阶：让外部素材自动流进来</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-23.png" alt="2.14 收藏宝贝信息二次利用" /><figcaption><b>2.14</b><span>浏览器自动化进阶：让你的收藏宝贝信息二次利用</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-24.png" alt="2.15 监控变化自动提醒" /><figcaption><b>2.15</b><span>浏览器自动化进阶：监控变化自动提醒</span></figcaption></figure>
+          <figure><img class="card" src="assets/knowledge-cards/lesson-25.png" alt="2.16 操作网页后台与发布" /><figcaption><b>2.16</b><span>浏览器自动化进阶：操作网页后台与发布</span></figcaption></figure>
         </div>
       </section>
     </main>
