@@ -1551,7 +1551,8 @@ function lessonWhy(lesson) {
 
 // 本地原型凭证：生产环境应改为服务端校验，不能把真实密钥放进前端源码。
 const lessonAccessConfig = {
-  default: { phone: "13800138000", key: "DEMO-2026" }
+  // 演示模式允许任意格式正确的手机号或邮箱；正式环境请配置服务端返回的授权结果。
+  default: { phone: "", key: "DEMO-2026" }
 };
 
 const lessonNecessityCopy = {
@@ -1710,10 +1711,10 @@ function lessonLockHtml(accessKey, unlocked = false) {
       <button type="button" class="lesson-lock-reveal" data-reveal-lock>继续阅读</button>
       <form class="lesson-lock-form" data-lesson-unlock="${accessKey}" novalidate hidden>
         <p class="lesson-lock-hint">请输入课程方提供的手机号和密钥。信息只在本地校验，不会上传。</p>
-        <label>手机号<input name="phone" inputmode="tel" autocomplete="tel" placeholder="请输入手机号" required /></label>
+        <label>手机号或邮箱<input name="phone" inputmode="email" autocomplete="username" placeholder="请输入手机号或邮箱" required /></label>
         <label>课程密钥<input name="key" type="password" autocomplete="off" placeholder="请输入课程方提供的密钥" required /></label>
         <button type="submit">解锁本课</button>
-        <p class="lesson-lock-error" role="alert" hidden>手机号或密钥不正确，请核对后重试。</p>
+        <p class="lesson-lock-error" role="alert" hidden>手机号/邮箱或密钥不正确，请核对后重试。</p>
       </form>
     </div>
   </section>`;
@@ -2021,8 +2022,9 @@ lessonDocument.addEventListener("submit", (event) => {
   const phone = String(form.elements.phone?.value || "").trim();
   const key = String(form.elements.key?.value || "").trim();
   const error = form.querySelector(".lesson-lock-error");
-  const validPhone = /^1\d{10}$/.test(phone);
-  if (!validPhone || phone !== config.phone || key !== config.key) {
+  const validIdentifier = /^(1\d{10}|[^\s@]+@[^\s@]+\.[^\s@]+)$/.test(phone);
+  const expectedIdentifier = config.phone || config.email || "";
+  if (!validIdentifier || (expectedIdentifier && phone !== expectedIdentifier) || key !== config.key) {
     if (error) error.hidden = false;
     form.classList.add("has-error");
     return;
