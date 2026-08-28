@@ -995,6 +995,27 @@ h1 {
   gap: 16px;
   min-height: 76px;
   border-bottom: 1px solid var(--ink);
+  padding: 0 10px;
+  transition: background-color 160ms ease, transform 160ms ease, padding 160ms ease;
+}
+
+.lesson-item:hover,
+.lesson-item:focus-within {
+  background: #fff6a6;
+  transform: translateX(6px);
+  padding-inline: 16px 10px;
+}
+
+.lesson-item:hover .lesson-number,
+.lesson-item:focus-within .lesson-number {
+  color: var(--red);
+}
+
+.lesson-item:hover .lesson-main strong,
+.lesson-item:focus-within .lesson-main strong {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 .lesson-number {

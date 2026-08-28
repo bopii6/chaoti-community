@@ -1283,9 +1283,9 @@ function renderWeekTabs() {
 
 function renderLessons() {
   const week = courseWeeks[state.activeWeek];
-  weekKicker.textContent = `${weekDisplayLabel(state.activeWeek)} · ${week.short}`;
-  weekTitle.textContent = week.title;
-  weekOutcome.innerHTML = week.outcome ? `<span>本模块结果</span><strong>${week.outcome}</strong>` : "";
+  weekKicker.textContent = "";
+  weekTitle.textContent = "";
+  weekOutcome.innerHTML = week.outcome ? `<strong>${week.outcome}</strong>` : "";
   weekDescription.textContent = week.description;
   lessonList.innerHTML = week.lessons
     .map((lesson, index) => {
@@ -1300,7 +1300,7 @@ function renderLessons() {
       return `
         ${groupHeader}
         <li class="lesson-item lesson-item-${group ? group.key : "default"}" data-course-lesson="${lessonId}" tabindex="0" aria-label="打开课程：${title}">
-          <span class="lesson-number">${weekDisplayNumber(state.activeWeek)}.${index + 1}</span>
+          <span class="lesson-number">${state.activeWeek + 1}.${index + 1}</span>
           <span class="lesson-main"><strong>${title}</strong><small>${summary} · ${duration}</small></span>
           <button class="lesson-open" type="button" data-open-lesson="${lessonId}">查看课程 <span aria-hidden="true">→</span></button>
         </li>
