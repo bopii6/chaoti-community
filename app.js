@@ -1252,11 +1252,11 @@ practiceLibrary?.addEventListener("click", (event) => {
 });
 
 function weekDisplayNumber(index) {
-  return index === 0 ? "00" : String(index).padStart(2, "0");
+  return String(index + 1).padStart(2, "0");
 }
 
 function weekDisplayLabel(index) {
-  return index === 0 ? "导读" : `模块 ${weekDisplayNumber(index)}`;
+  return `模块 ${weekDisplayNumber(index)}`;
 }
 
 function renderWeekTabs() {
@@ -1300,7 +1300,7 @@ function renderLessons() {
       return `
         ${groupHeader}
         <li class="lesson-item lesson-item-${group ? group.key : "default"}" data-course-lesson="${lessonId}" tabindex="0" aria-label="打开课程：${title}">
-          <span class="lesson-number">${state.activeWeek === 0 ? "0" : state.activeWeek}.${index + 1}</span>
+          <span class="lesson-number">${weekDisplayNumber(state.activeWeek)}.${index + 1}</span>
           <span class="lesson-main"><strong>${title}</strong><small>${summary} · ${duration}</small></span>
           <button class="lesson-open" type="button" data-open-lesson="${lessonId}">查看课程 <span aria-hidden="true">→</span></button>
         </li>
@@ -1686,6 +1686,10 @@ function isLessonUnlocked(accessKey) {
   return localStorage.getItem(`lessonAccess:${accessKey}`) === "unlocked";
 }
 
+function getAdminAccessRecords() {
+  try { return JSON.parse(localStorage.getItem("courseAccessRecords") || "[]"); } catch { return []; }
+}
+
 function lessonNecessityHtml(weekIndex, lessonIndex, lesson) {
   const copy = lessonNecessityCopy[lessonAccessKey(weekIndex, lessonIndex)] || lessonNecessityCopy[lessonAccessKey(weekIndex + 1, lessonIndex)] || {
     title: "为什么要学这节？",
@@ -2024,7 +2028,9 @@ lessonDocument.addEventListener("submit", (event) => {
   const error = form.querySelector(".lesson-lock-error");
   const validIdentifier = /^(1\d{10}|[^\s@]+@[^\s@]+\.[^\s@]+)$/.test(phone);
   const expectedIdentifier = config.phone || config.email || "";
-  if (!validIdentifier || (expectedIdentifier && phone !== expectedIdentifier) || key !== config.key) {
+  const managedMatch = getAdminAccessRecords().some((record) => record.identifier === phone && record.key === key);
+  const demoMatch = (!expectedIdentifier || phone === expectedIdentifier) && key === config.key;
+  if (!validIdentifier || (!managedMatch && !demoMatch)) {
     if (error) error.hidden = false;
     form.classList.add("has-error");
     return;

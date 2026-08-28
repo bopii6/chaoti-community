@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>课程授权后台</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif;color:#111;background:#f6f1e8}*{box-sizing:border-box}body{margin:0;padding:48px 20px}.panel{max-width:720px;margin:auto;background:#fff;border:2px solid #111;padding:32px;box-shadow:10px 10px 0 #f8e43f}h1{margin:0 0 8px;font-size:32px}.note{color:#666;line-height:1.8}form{display:grid;gap:14px;margin-top:24px}label{display:grid;gap:6px;font-weight:800;font-size:14px}input{min-height:44px;padding:0 12px;border:2px solid #aaa;font:inherit}button{min-height:44px;padding:0 18px;border:2px solid #111;background:#f2483e;color:#fff;font-weight:900;font:inherit;cursor:pointer}button:hover{background:#f8e43f;color:#111}.result{display:grid;gap:8px;margin-top:24px;padding:18px;background:#111;color:#fff}.result code{font-size:18px;color:#f8e43f;word-break:break-all}.records{margin-top:28px;border-top:1px solid #ccc;padding-top:18px}.record{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #ddd}.record code{font-size:12px}small{color:#777}@media(max-width:560px){body{padding:24px 14px}.panel{padding:22px}.record{display:grid}}
+  </style>
+</head>
+<body>
+  <main class="panel">
+    <h1>课程授权后台</h1>
+    <p class="note">输入客户手机号或邮箱，生成一串课程密钥。当前版本把记录保存在本浏览器，仅适合内部原型；正式交付需要接入服务端数据库和管理员登录。</p>
+    <form id="access-form">
+      <label>客户手机号或邮箱<input id="identifier" required placeholder="例如 13800138000 或 name@example.com" /></label>
+      <button type="submit">生成密钥</button>
+    </form>
+    <section id="result" class="result" hidden>
+      <strong>授权信息</strong>
+      <div>账号：<code id="result-identifier"></code></div>
+      <div>密钥：<code id="result-key"></code></div>
+      <button id="copy-result" type="button">复制授权信息</button>
+    </section>
+    <section class="records"><strong>本机已生成记录</strong><div id="records-list"><small>暂无记录</small></div></section>
+  </main>
+  <script>
+    const form=document.querySelector('#access-form');const input=document.querySelector('#identifier');const result=document.querySelector('#result');const resultIdentifier=document.querySelector('#result-identifier');const resultKey=document.querySelector('#result-key');const recordsList=document.querySelector('#records-list');let latest='';
+    const read=()=>{try{return JSON.parse(localStorage.getItem('courseAccessRecords')||'[]')}catch{return[]}};
+    const write=(records)=>localStorage.setItem('courseAccessRecords',JSON.stringify(records));
+    const render=()=>{const records=read();recordsList.innerHTML=records.length?records.slice().reverse().map(r=>`<div class="record"><span>${r.identifier}</span><code>${r.key}</code></div>`).join(''):'<small>暂无记录</small>'};
+    form.addEventListener('submit',e=>{e.preventDefault();const identifier=input.value.trim();if(!/^(1\d{10}|[^\s@]+@[^\s@]+\.[^\s@]+)$/.test(identifier)){input.focus();return}const key='AI-'+crypto.randomUUID().replaceAll('-','').slice(0,16).toUpperCase();const records=read().filter(r=>r.identifier!==identifier);records.push({identifier,key,createdAt:new Date().toISOString()});write(records);latest=`账号：${identifier}\n密钥：${key}`;resultIdentifier.textContent=identifier;resultKey.textContent=key;result.hidden=false;render()});
+    document.querySelector('#copy-result').addEventListener('click',()=>navigator.clipboard?.writeText(latest));render();
+  </script>
+</body>
+</html>
