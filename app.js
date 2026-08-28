@@ -1683,6 +1683,7 @@ function lessonAccessKey(weekIndex, lessonIndex) {
 }
 
 function isLessonUnlocked(accessKey) {
+  if (localStorage.getItem("courseAccessSession") === "unlocked") return true;
   return localStorage.getItem(`lessonAccess:${accessKey}`) === "unlocked";
 }
 
@@ -2036,6 +2037,7 @@ lessonDocument.addEventListener("submit", (event) => {
     return;
   }
   localStorage.setItem(`lessonAccess:${accessKey}`, "unlocked");
+  localStorage.setItem("courseAccessSession", "unlocked");
   renderLessonPage(state.activeWeek, state.activeLesson);
 });
 
