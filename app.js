@@ -2018,7 +2018,7 @@ lessonDocument.addEventListener("click", (event) => {
   });
 });
 
-lessonDocument.addEventListener("submit", (event) => {
+lessonDocument.addEventListener("submit", async (event) => {
   const form = event.target.closest("[data-lesson-unlock]");
   if (!form) return;
   event.preventDefault();
@@ -2029,9 +2029,14 @@ lessonDocument.addEventListener("submit", (event) => {
   const error = form.querySelector(".lesson-lock-error");
   const validIdentifier = /^(1\d{10}|[^\s@]+@[^\s@]+\.[^\s@]+)$/.test(phone);
   const expectedIdentifier = config.phone || config.email || "";
+  let remoteMatch = false;
+  try {
+    const response = await fetch("/api/access/verify", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ identifier: phone, key }) });
+    if (response.ok) remoteMatch = Boolean((await response.json()).ok);
+  } catch { /* 本地开发服务未启用 Functions 时继续走演示校验。 */ }
   const managedMatch = getAdminAccessRecords().some((record) => record.identifier === phone && record.key === key);
   const demoMatch = (!expectedIdentifier || phone === expectedIdentifier) && key === config.key;
-  if (!validIdentifier || (!managedMatch && !demoMatch)) {
+  if (!validIdentifier || (!remoteMatch && !managedMatch && !demoMatch)) {
     if (error) error.hidden = false;
     form.classList.add("has-error");
     return;
