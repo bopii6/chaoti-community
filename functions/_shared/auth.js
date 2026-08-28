@@ -33,6 +33,15 @@ export async function customerKey(identifier, secret) {
   return `AI-${(await sign(identifier.trim().toLowerCase(), secret)).slice(0, 22).toUpperCase()}`;
 }
 
+export function accessRecordKey(identifier) {
+  return `access:${encodeURIComponent(identifier.trim().toLowerCase())}`;
+}
+
+export function randomCustomerKey() {
+  const bytes = crypto.getRandomValues(new Uint8Array(16));
+  return `AI-${Array.from(bytes, (byte) => byte.toString(16).padStart(2, "0")).join("").toUpperCase()}`;
+}
+
 export function json(data, status = 200, headers = {}) {
   return new Response(JSON.stringify(data), { status, headers: { "content-type": "application/json; charset=utf-8", ...headers } });
 }

@@ -1,0 +1,6 @@
+name = "cindy-site"
+compatibility_date = "2026-08-28"
+
+[[kv_namespaces]]
+binding = "COURSE_ACCESS_KV"
+id = "34a7fb4955c543ad9c84d65b18d77341"
