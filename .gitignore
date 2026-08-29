@@ -1,6 +1,7 @@
 # Local deployment copies and provider state
 .deploy-*/
 .wrangler/
+.server.log
 
 # Local design and generation workspaces
 .card-header-tmp/

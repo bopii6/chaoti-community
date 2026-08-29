@@ -1011,13 +1011,6 @@ h1 {
   color: var(--red);
 }
 
-.lesson-item:hover .lesson-main strong,
-.lesson-item:focus-within .lesson-main strong {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
-}
-
 .lesson-number {
   font-family: var(--display);
   font-size: 14px;
@@ -1347,6 +1340,29 @@ h1 {
 
 .course-page {
   background: var(--paper);
+}
+
+.course-page .page-hero-inner {
+  min-height: clamp(300px, 36vh, 390px);
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 440px);
+  align-items: center;
+  gap: clamp(32px, 7vw, 100px);
+}
+
+.course-hero-copy {
+  display: grid;
+  gap: 16px;
+}
+
+.course-page .course-card-library-link {
+  width: 100%;
+  margin-top: 0;
+}
+
+@media (min-width: 981px) and (max-height: 950px) {
+  .course-page .page-hero-inner {
+    min-height: calc(clamp(300px, 36vh, 390px) + 12px);
+  }
 }
 
 .course-hero-board {
@@ -1864,7 +1880,7 @@ h1 {
 
 .ai-level-stepper {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   margin-bottom: 42px;
   border-block: var(--line);
 }
@@ -1919,7 +1935,22 @@ h1 {
 
 .ai-level-reader-media {
   width: 100%;
+  aspect-ratio: 2 / 3;
   margin: 0 auto;
+}
+
+.ai-level-reader-media .ai-level-image-button {
+  height: 100%;
+}
+
+.ai-level-image-button.is-overview {
+  background: #f5f0e6;
+}
+
+.ai-level-image-button.is-overview img {
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: contain;
 }
 
 .ai-level-reader-copy {
@@ -2010,6 +2041,26 @@ h1 {
   padding: 26px 0 0;
 }
 
+.deliverables-page .ai-levels-overview {
+  max-width: 1180px;
+  margin: 0 0 48px;
+}
+
+.deliverables-page .ai-levels-overview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: var(--line);
+  box-shadow: 7px 7px 0 var(--ink);
+}
+
+.deliverables-page .ai-levels-overview figcaption {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .deliverables-page .delivery-levels .ai-level-stepper {
   margin: 0 0 34px;
 }
@@ -2087,6 +2138,10 @@ h1 {
 
   .deliverables-page .delivery-levels .ai-level-stepper {
     margin-bottom: 26px;
+  }
+
+  .deliverables-page .ai-levels-overview {
+    margin-bottom: 34px;
   }
 
   .deliverables-page .delivery-levels .ai-level-reader {
@@ -2481,6 +2536,7 @@ h1 {
 
   .ai-level-reader-media {
     width: 100%;
+    aspect-ratio: 2 / 3;
   }
 
   .ai-level-reader-copy {
@@ -2516,6 +2572,15 @@ h1 {
 
   .course-hero-board {
     grid-template-columns: 1fr;
+  }
+
+  .course-page .page-hero-inner {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .course-page .course-card-library-link {
+    width: min(100%, 440px);
   }
 
   .course-hero-board > div {
@@ -3062,7 +3127,7 @@ h1 {
   line-height: 1.65 !important;
 }
 
-.lesson-necessity ul {
+.lesson-necessity ol {
   max-width: 42em;
   margin: 0;
   padding-left: 1.2em;
@@ -5175,9 +5240,13 @@ html body .deliverables-page .delivery-capability-list .delivery-capability-item
 }
 
 /* Final cascade for the original “我能交付” page. */
-.deliverables-page .deliverables-hero { background: var(--paper-deep); border-bottom: 0; }
-.deliverables-page .page-hero-inner { min-height: clamp(330px, 42vh, 460px); padding: 72px 0; }
-.deliverables-page .deliverables-shell { padding: 72px 0 96px; }
+.deliverables-page .deliverables-hero { background: var(--yellow) !important; border-bottom: var(--line) !important; }
+.deliverables-page .page-hero-inner { min-height: clamp(300px, 36vh, 390px); padding: 45px 0 !important; }
+.deliverables-page .deliverables-shell { padding: 32px 0 96px; }
+.deliverables-page .delivery-levels { margin-top: 24px; padding-top: 24px; }
+html body .deliverables-page .page-hero-inner { min-height: clamp(300px, 36vh, 390px) !important; padding: 45px 0 !important; }
+html body .deliverables-page .deliverables-shell { padding-top: 32px !important; }
+html body .deliverables-page .delivery-levels { margin-top: 24px !important; padding-top: 24px !important; }
 .deliverables-page .delivery-block + .delivery-block { margin-top: 88px; }
 .deliverables-page .delivery-block-heading { display: grid; grid-template-columns: minmax(260px, .78fr) minmax(0, 1.22fr); column-gap: 56px; align-items: end; margin-bottom: 28px; padding-bottom: 20px; border-bottom: var(--line); }
 .deliverables-page .delivery-block-heading .eyebrow { grid-column: 1 / -1; margin-bottom: 12px; color: var(--red); }
@@ -5218,8 +5287,8 @@ html body .deliverables-page .delivery-capability-list .delivery-capability-item
 .deliverables-page .delivery-closing-mark { font-size: 34px; }
 
 @media (max-width: 760px) {
-  .deliverables-page .page-hero-inner { min-height: 0; padding: 52px 0; }
-  .deliverables-page .deliverables-shell { padding: 52px 0 76px; }
+  .deliverables-page .page-hero-inner { min-height: 0; padding: 42px 0 38px; }
+  .deliverables-page .deliverables-shell { padding: 40px 0 76px; }
   .deliverables-page .delivery-block + .delivery-block { margin-top: 62px; }
   .deliverables-page .delivery-block-heading { grid-template-columns: 1fr; gap: 14px; margin-bottom: 22px; }
   .deliverables-page .delivery-output-grid,

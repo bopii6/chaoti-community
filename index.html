@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260828-course-clean" />
+    <link rel="stylesheet" href="styles.css?v=20260828-deliverables-yellow" />
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要内容</a>
@@ -124,7 +124,6 @@
       <section id="deliverables" class="page-view deliverables-page" data-page="deliverables">
         <div class="page-hero deliverables-hero">
           <div class="page-hero-inner">
-            <p class="eyebrow">PURCHASE GUIDE · 购买说明书</p>
             <h1>买之前，<br />先把话说清楚。</h1>
             <p class="page-hero-lead">时间怎么安排、怎么学习、需要什么工具、哪些事情不包含，都写在这里。看清楚，再决定要不要开始。</p>
           </div>
@@ -139,28 +138,29 @@
             </div>
             <div class="ai-levels-gallery-shell">
               <nav class="ai-level-stepper" aria-label="AI六级学习路径">
-                <button class="ai-level-step is-active" type="button" data-level="0"><span>01</span><strong>对话型 AI</strong></button>
-                <button class="ai-level-step" type="button" data-level="1"><span>02</span><strong>基础型 Agent</strong></button>
-                <button class="ai-level-step" type="button" data-level="2"><span>03</span><strong>增强型 Agent</strong></button>
-                <button class="ai-level-step" type="button" data-level="3"><span>04</span><strong>工作流型 Agent</strong></button>
-                <button class="ai-level-step" type="button" data-level="4"><span>05</span><strong>自动化型 Agent</strong></button>
-                <button class="ai-level-step" type="button" data-level="5"><span>06</span><strong>AI 工具开发</strong></button>
+                <button class="ai-level-step is-active" type="button" data-level="0"><span>总览</span><strong>六级分布</strong></button>
+                <button class="ai-level-step" type="button" data-level="1"><span>01</span><strong>对话型 AI</strong></button>
+                <button class="ai-level-step" type="button" data-level="2"><span>02</span><strong>基础型 Agent</strong></button>
+                <button class="ai-level-step" type="button" data-level="3"><span>03</span><strong>增强型 Agent</strong></button>
+                <button class="ai-level-step" type="button" data-level="4"><span>04</span><strong>工作流型 Agent</strong></button>
+                <button class="ai-level-step" type="button" data-level="5"><span>05</span><strong>自动化型 Agent</strong></button>
+                <button class="ai-level-step" type="button" data-level="6"><span>06</span><strong>AI 工具开发</strong></button>
               </nav>
               <div class="ai-level-reader">
                 <div class="ai-level-reader-media">
-                  <button id="ai-level-reader-image-button" class="ai-level-image-button" type="button" data-lightbox-src="assets/ai-levels/01-dialogue.png" data-lightbox-alt="AI能力等级01：对话型AI">
-                    <img id="ai-level-reader-image" src="assets/ai-levels/01-dialogue.png" alt="AI能力等级01：对话型AI" />
+                  <button id="ai-level-reader-image-button" class="ai-level-image-button is-overview" type="button" data-lightbox-src="assets/ai-levels/ai-capability-pyramid-v2.png" data-lightbox-alt="AI能力六级金字塔：对话式AI约70%，基础型Agent约20%，03到06属于增强型Agent，合计约10%">
+                    <img id="ai-level-reader-image" src="assets/ai-levels/ai-capability-pyramid-v2.png" alt="AI能力六级金字塔：对话式AI约70%，基础型Agent约20%，03到06属于增强型Agent，合计约10%" />
                     <span class="ai-level-zoom" aria-hidden="true">放大查看 ↗</span>
                   </button>
                 </div>
                 <div class="ai-level-reader-copy">
-                  <p id="ai-level-reader-kicker" class="eyebrow">LEVEL 01 · 起点</p>
-                  <h2 id="ai-level-reader-title">对话型 AI</h2>
-                  <p id="ai-level-reader-lead" class="ai-level-reader-lead">会问问题，解决单点任务。</p>
+                  <p id="ai-level-reader-kicker" class="eyebrow">OVERVIEW · 六级分布</p>
+                  <h2 id="ai-level-reader-title">AI 能力六级金字塔</h2>
+                  <p id="ai-level-reader-lead" class="ai-level-reader-lead">先看整体，再找到你现在的位置。</p>
                   <dl class="ai-level-reader-facts">
-                    <div><dt>这一等级是怎么回事</dt><dd id="ai-level-reader-about">你有一个随叫随到的 AI 顾问：你提问，它回答；你提供材料，它帮你处理。</dd></div>
-                    <div><dt>什么时候升级</dt><dd id="ai-level-reader-upgrade">开始需要读取多个文件、连续执行多个步骤，或者直接交付工作成果。</dd></div>
-                    <div><dt>什么时候不用升级</dt><dd id="ai-level-reader-enough">如果你的目标只是日常问答、写作和整理，停在这一层就够用。</dd></div>
+                    <div><dt>这张图怎么看</dt><dd id="ai-level-reader-about">越往上，AI 能做的事越复杂，能走到的人越少。</dd></div>
+                    <div><dt>人群大致分布</dt><dd id="ai-level-reader-upgrade">对话式 AI 约 70%，基础型 Agent 约 20%，03 到 06 的增强型 Agent 合计约 10%。</dd></div>
+                    <div><dt>接下来怎么用</dt><dd id="ai-level-reader-enough">点击上方任意一级，查看这一层具体能做什么，再判断自己下一步要补哪项能力。</dd></div>
                   </dl>
                   <div class="ai-level-reader-actions"><button id="ai-level-prev" class="button button-dark" type="button" disabled>← 上一级</button><button id="ai-level-next" class="button button-yellow" type="button">下一级 →</button></div>
                 </div>
@@ -206,16 +206,14 @@
           </section>
 
           <section class="delivery-block delivery-manual" aria-labelledby="delivery-manual-title">
-            <div class="delivery-block-heading"><p class="eyebrow">05 · PURCHASE DETAILS</p><h2 id="delivery-manual-title">购买说明</h2><p>这不是报名门槛，是购买前该被讲清楚的事实。我们不靠社群打卡，也不把你的责任交给 AI。</p></div>
+            <div class="delivery-block-heading"><p class="eyebrow">05 · PURCHASE DETAILS</p><h2 id="delivery-manual-title">购买说明</h2><p>这不是报名门槛，是购买前该被讲清楚的事实。课程采用录播、文档和 30 天答疑，不靠直播打卡，也不把你的责任交给 AI。</p></div>
             <div class="delivery-manual-list">
-              <article class="delivery-manual-item"><span>01</span><div><h3>每周固定直播 2 小时</h3><p>每周六上午 9:00–11:00。会有回放，但建议尽量现场来：课程讲解、集中答疑都发生在直播间。除此之外，请为完成清单留出实践时间。</p></div></article>
-              <article class="delivery-manual-item"><span>02</span><div><h3>直播 + 录播 + 文档</h3><p>你可以现场跟着做，也可以回看录播；课程会提供配套文档，方便在自己的电脑上反复操作和复盘。</p></div></article>
-              <article class="delivery-manual-item"><span>03</span><div><h3>用完成清单，不做逐份作业批改</h3><p>每个模块会有完成清单，让你知道这周要跑通哪些任务、留下哪些成果。重点不是交一份“作业”，而是把自己的真实问题做完。</p></div></article>
-              <article class="delivery-manual-item"><span>04</span><div><h3>答疑只在直播间集中进行</h3><p>问题集中在每周六上午的直播间解决。不设社群，也不提供一对一答疑，把时间留给课程、实践和公开可复用的问题。</p></div></article>
-              <article class="delivery-manual-item"><span>05</span><div><h3>工具预算：先预留 100 元</h3><p>WorkBuddy 等工具可以先从免费能力开始。需要使用 Codex 等付费工具时，建议预留约 100 元人民币的用量；不要求一开始订阅很多工具。</p></div></article>
-              <article class="delivery-manual-item"><span>06</span><div><h3>设备：普通新电脑就够用</h3><p>Windows 和 Mac 都可以。建议使用 2020 年后购买、能稳定联网的电脑；不需要为了上课购买高配设备。</p></div></article>
-              <article class="delivery-manual-item"><span>07</span><div><h3>整体不需要科学上网</h3><p>课程按无需科学上网的方式设计。个别工具能否使用仍以你的账号、地区、网络和工具当时的服务状态为准。</p></div></article>
-              <article class="delivery-manual-item"><span>08</span><div><h3>这些情况不建议报名</h3><p>如果你已经能独立用 AI、Agent、Skill 和自动化稳定完成工作，不再为 AI 发怵，这门入门到实践的课程可能不适合你。只想听、不愿意在电脑上练习，或期待老师替你完成业务的人，也不适合。</p></div></article>
+              <article class="delivery-manual-item"><span>01</span><div><h3>无限录播、无限回看、配套文档</h3><p>购买后可以随时观看课程录播，不限回看次数；每节课配有文档，方便你在自己的电脑上反复操作、复盘和查找。</p></div></article>
+              <article class="delivery-manual-item"><span>02</span><div><h3>30 天答疑，不做作业批改</h3><p>从购买开始提供 30 天答疑时间，课程理解、操作卡点和方向判断都可以提问。请尽量在每天 21:00 前提问和沟通，21:00 之后不答疑；答疑不包含逐份作业批改，也不代替你完成任务。</p></div></article>
+              <article class="delivery-manual-item"><span>03</span><div><h3>工具预算：先预留 100 元</h3><p>WorkBuddy 等工具可以先从免费能力开始。需要使用 Codex 等付费工具时，建议预留约 100 元人民币的用量；不要求一开始订阅很多工具。</p></div></article>
+              <article class="delivery-manual-item"><span>04</span><div><h3>设备：普通新电脑就够用</h3><p>Windows 和 Mac 都可以。建议使用 2020 年后购买、能稳定联网的电脑；不需要为了上课购买高配设备。</p></div></article>
+              <article class="delivery-manual-item"><span>05</span><div><h3>整体不需要科学上网</h3><p>课程按无需科学上网的方式设计。个别工具能否使用仍以你的账号、地区、网络和工具当时的服务状态为准。</p></div></article>
+              <article class="delivery-manual-item"><span>06</span><div><h3>这些情况不建议报名</h3><p>如果你已经能独立用 AI、Agent、Skill 和自动化稳定完成工作，不再为 AI 发怵，这门入门到实践的课程可能不适合你。只想听、不愿意在电脑上练习，或期待老师替你完成业务的人，也不适合。</p></div></article>
             </div>
           </section>
 
@@ -226,12 +224,13 @@
       <section id="course" class="page-view course-page" data-page="course">
         <div class="page-hero">
           <div class="page-hero-inner">
-            <p class="eyebrow">COURSE · 30天课程</p>
-            <h1>30天，<br />跟着官方节奏走。</h1>
-            <p class="page-hero-lead">系统性降低你的摸索成本。</p>
+            <div class="course-hero-copy">
+              <h1>30天，<br />跟着官方节奏走。</h1>
+              <p class="page-hero-lead">系统性降低你的摸索成本。</p>
+            </div>
             <a class="course-card-library-link" href="preview-cards.html" target="_blank" rel="noopener">
               <span>
-                <small>课程重点速览 · 直播展示</small>
+                <small>课程重点速览 · 录播预览</small>
                 <strong>查看全部课程卡片</strong>
               </span>
               <b aria-hidden="true">↗</b>
@@ -485,6 +484,6 @@
       </div>
     </footer>
 
-    <script src="app.js?v=20260828-course-clean"></script>
+    <script src="app.js?v=20260829-lesson-bindings"></script>
   </body>
 </html>
