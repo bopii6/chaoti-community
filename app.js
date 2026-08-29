@@ -713,10 +713,10 @@ capabilityLowerModule.title = "Agent 能力扩展（下）";
 capabilityLowerModule.description = "用知识库保存你的长期资料，用浏览器自动化读取和处理收藏，再把这些能力串成一条真实的内容生产流程。";
 capabilityLowerModule.lessons = knowledgeAndBrowserLessons;
 
-imaginationModule.short = "AI 实战榜";
-imaginationModule.title = "AI 实战榜";
+imaginationModule.short = "AI 炼金术";
+imaginationModule.title = "AI 炼金术";
 imaginationModule.outcome = "把课程里做出的成果，放到真实场景里验证";
-imaginationModule.description = "这里不再新增知识点，只展示已经做出来、能运行、能复用的 AI 实战作品。后续每完成一个作品，就继续加入榜单。";
+imaginationModule.description = "这里不再新增知识点，只展示已经做出来、能运行、能复用的 AI 作品。后续每完成一个作品，就继续收录进来。";
 imaginationModule.lessons = [
   {
     title: "销冠：从一段录音提取可复用成交动作",
@@ -729,7 +729,7 @@ imaginationModule.lessons = [
       { heading: "让 AI 找出成交动作", bullets: ["区分客户原话和销冠原话。", "找出关键动作、客户心理变化和成交理由。", "标记不确定的判断，不编造录音里没有出现的事实。"] },
       { heading: "把结果沉淀成能力", paragraphs: ["将识别出的理由放进成交目录，再把验证过的方法、判断规则和检查清单封装成团队 Skill。每次只挑 1—2 个差异改进，下一次录音再验证。"] }
     ],
-    demo: "打开 AI 实战榜的‘销冠’案例，查看从录音采集、动作识别、成交目录到团队 Skill 的完整流程。",
+    demo: "打开 AI 炼金术的‘销冠’案例，查看从录音采集、动作识别、成交目录到团队 Skill 的完整流程。",
     prompt: "你是销售复盘教练。请阅读这段销冠录音转写，识别：1. 客户原话与真实目标；2. 销冠在关键时刻做了什么；3. 客户判断发生了什么变化；4. 可复用的成交理由与适用边界；5. 可以沉淀到成交目录的知识条目。不要编造录音里没有出现的事实，不确定的地方标记为‘待确认’。",
     exercise: "选择一段经过脱敏的真实沟通记录，提取 3 个关键动作，写入成交目录，并选出一个下次沟通要验证的改进点。",
     acceptance: ["能从真实沟通记录中区分客户原话和销冠动作。", "能提取成交理由、适用边界和待确认信息。", "能把结果沉淀为可复用的成交目录或 Skill。", "知道这个作品仍需在下一次真实沟通中继续验证。"]
